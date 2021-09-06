@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1531773273471" createdUser="kristopher.furr" id="-4523b208:164a498e726:-4f57:-1443352574:1544155186" selfDescribing="http localhost:60156 " type="http_transport" updatedTimestamp="1531773273471" updatedUser="kristopher.furr" version="1.0">
+   <syncdetails compare="http localhost:60156 " lastSynced="1531773273471" sourceid="-4523b208:164a498e726:-4f57">
+      <sourcepath path="AddNumbersService/AddNumbersPort"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="" transportTemplateName="HTTP">
+      <messageProperties ReasonPhrase="No Stub available that matches the request" clientConnectionsPerHost="100" credDomain="" credPassword="#com.ghc.1!de9c" credPreemptive="false" credType="0" credUser="" httpHost="localhost" httpNtlmDomain="" httpPort="60156" httpProxyHost="" httpProxyPassword="#com.ghc.1!8db9" httpProxyPort="" httpProxyUsername="" httpResourceRoot="" httpServerSocketBindAddressOverride="" httpServerSocketPortOverride="" httpSocketTimeout="" httpTimeoutResponseCode="503" httpVirtualHost="" useSsl="false" version="4">
+         <kerberos Anon="false" CStyle="Username / Password" Conf="false" Custom="true" Enabled="false" Integ="false" MutAuth="false" RepDet="false" SSO="false" SeqCheck="false"/>
+      </messageProperties>
+   </resourceConfig>
+</editableResource>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1588167049920"
+    createdUser="KATHERINE.CARROLL" id="2e567d39:171c6188eb1:-7d51"
+    type="test_resource" updatedTimestamp="1588289797653"
+    updatedUser="KATHERINE.CARROLL" version="1.1">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig description="" name="">
+        <testTree>
+            <editableResource id="-7888ec70:171ac021bcd:-7cda"
+                selfDescribing="The log actions enables you to output messages to console and a logging file."
+                type="logging_action" version="1.0">
+                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                <resourceConfig append="true" description=""
+                    flush="true" loggingMessage="====> %%echo_message%%"
+                    name="====> %%echo_message%%" outputFile="" role="0"/>
+            </editableResource>
+            <editableResource id="-7888ec70:171ac021bcd:-7d0f"
+                selfDescribing="Iterate over a test data set"
+                type="iterate_action" version="1.0">
+                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                <resourceConfig description="" disableMappings="false"
+                    iterationContributor="true" maxIterationTime="0.0"
+                    maxIterationTimeExceededFailsTest="false"
+                    maxTotalIterationTime="0.0"
+                    maxTotalIterationTimeExceededFailsTest="false"
+                    name=" over Locations" option="NOTHING"
+                    pacingtime="0.0" pacingtype="MIN_DURATION"
+                    performanceDisableValidation="false"
+                    performanceInstances="1"
+                    performanceInterleave="false"
+                    performanceMaximumIterationTime="0"
+                    performanceMaximumTestTime="0"
+                    performanceUseMaximumIterationTime="false"
+                    performanceUseMaximumTestTime="false" remoteAgent=""
+                    reportingLogIterations="1"
+                    reportingLogLogMessages="8" reportingLogMessages="4"
+                    reportingLogScriptExitCodes="8"
+                    reportingLogScriptOutput="8"
+                    reportingLogTagValues="8" reportingLogTimes="8"
+                    runSettingsContinueOnFail="true"
+                    runSettingsDelayEnabled="false"
+                    runSettingsDelayType="Fixed Delay"
+                    runSettingsIterations=""
+                    runSettingsMaximumDelayValue="0"
+                    runSettingsMinimumDelayValue="0"
+                    runSettingsRunFor="0" runSettingsRunType="Once Only"
+                    runSettingsTestDescription=""
+                    type="script:ECMAScript" useMaxIterationTime="false"
+                    useMaxTotalIterationTime="false" usepacing="false">
+                    <testDataSetReference
+                        id="2e567d39:171c6188eb1:-7e99"
+                        lkname="Locations" lkpath="echo/Locations" type="simple_test_data"/>
+                    <mapper disableFiltersWhenEmpty="false"
+                        knownColumns="zipcode,city,username" noAutoMap="zipcode,city,username">
+                        <mapping columnName="city" tagName="city" type="4"/>
+                        <mapping tagName="echoStringReturn" type="0"/>
+                        <mapping columnName="username"
+                            tagName="username" type="4"/>
+                        <mapping columnName="zipcode" tagName="zipcode" type="4"/>
+                        <filter columnIdx="0" columnName="username">
+                            <fieldAction type="1">
+                                <fieldAction type="0"/>
+                            </fieldAction>
+                        </filter>
+                    </mapper>
+                    <testTree>
+                        <editableResource
+                            id="2e567d39:171c6188eb1:-7c3c"
+                            selfDescribing="Execute a function and optionally tag the results. Use predefined functions, custom plug-ins and tagged data."
+                            type="function_action" version="1.0">
+                            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                            <resourceConfig description=""
+                                eval_type="Mozilla Rhino"
+                                function="message = username +&quot; , &quot;+ city + &quot; , &quot;+ zipcode" name="Run &quot;message = username +&quot; , &quot;+ city + &quot; , &quot;+ zipcode&quot;"/>
+                        </editableResource>
+                        <editableResource
+                            id="-2e83cdc4:171a20a0ea9:-7d38"
+                            selfDescribing="The log actions enables you to output messages to console and a logging file."
+                            type="logging_action" version="1.0">
+                            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                            <resourceConfig append="true" description=""
+                                flush="true"
+                                loggingMessage="=========>   %%message%%"
+                                name="=========>   %%message%%"
+                                outputFile="" role="0"/>
+                        </editableResource>
+                    </testTree>
+                </resourceConfig>
+            </editableResource>
+        </testTree>
+        <tagDataStore inputMode="NONE" outputMode="NONE">
+            <tag defaultValue="" description="" name="echoStringReturn"/>
+            <tag defaultValue="" description="" name="zipcode"/>
+            <tag defaultValue="" description="" name="city"/>
+            <tag defaultValue="" description="" name="message"/>
+            <tag defaultValue="" description="" name="username"/>
+        </tagDataStore>
+        <testprops messageClearance="false"/>
+    </resourceConfig>
+</editableResource>

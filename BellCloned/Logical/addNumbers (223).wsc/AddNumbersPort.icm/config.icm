@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1531916773365" createdUser="kristopher.furr" id="4332d2f6:164a8a40788:-39ff:1731931949:408339756" type="infrastructure_component_resource" updatedTimestamp="1531916773365" updatedUser="kristopher.furr" version="1.1">
+   <syncdetails compare="AddNumbersService/AddNumbersPort" lastSynced="1531916773365" sourceid="4332d2f6:164a8a40788:-39ff">
+      <sourcepath path="AddNumbersService/AddNumbersPort"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig infrastructureType="http_transport">
+      <recordingSettings colour="110,10,30"/>
+   </resourceConfig>
+</editableResource>

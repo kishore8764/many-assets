@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1562840368482"
+    createdUser="ibmadmin" id="3dde1c1f:16be0876bbe:-7e46"
+    selfDescribing="Proxied-TripPinServer - https services.odata.org"
+    type="http_transport" updatedTimestamp="1603394554682"
+    updatedUser="root" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig transportName="Proxied-TripPinServer" transportTemplateName="HTTP">
+        <messageProperties
+            ReasonPhrase="No Stub available that matches the request"
+            clientConnectionsPerHost="100" credDomain=""
+            credPassword="#com.ghc.1!1032" credPreemptive="false"
+            credType="0" credUser="" httpHost="services.odata.org"
+            httpNtlmDomain="" httpPort="" httpProxyHost="150.239.50.82"
+            httpProxyPassword="#com.ghc.1!ab3b" httpProxyPort="3128"
+            httpProxyUsername="" httpServerSocketBindAddressOverride=""
+            httpServerSocketPortOverride="" httpSocketTimeout=""
+            httpTimeoutResponseCode="503" httpVirtualHost=""
+            recType="PROXY" useSsl="true" version="4">
+            <kerberos Anon="false" Conf="false" Custom="true"
+                Enabled="false" Integ="false" KDC="" Loc=""
+                MutAuth="false" Principal="" Pwd="#com.ghc.1!06e4"
+                Realm="" RepDet="false" SSO="false" SeqCheck="false"/>
+            <oauth clientassertion="" clientid="" clientsecret=""
+                enabled="false" refreshtoken="" scopes="" tokenendpoint=""/>
+            <serverAuthentication>
+                <authenticationConfig enabled="false" realm="" type="1"/>
+                <authenticationConfig algorithm="" authParams=""
+                    domain="" enabled="false" nonce="false" opaque=""
+                    qop="" realm="" stale="" type="2"/>
+                <authenticationConfig enabled="false" type="3"/>
+                <authenticationConfig enabled="false" type="5"/>
+            </serverAuthentication>
+        </messageProperties>
+    </resourceConfig>
+</editableResource>

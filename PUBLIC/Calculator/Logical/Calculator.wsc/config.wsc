@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1589727616292"
+    createdUser="KATHERINE.CARROLL" id="-306c2acc:1722323f9c1:-7ec1"
+    selfDescribing="%%SYSTEM_PROJECT_ROOT%%calculator"
+    syncSourceDetails="-306c2acc:1722323f9c1:-7f68"
+    type="wsdl_service_component" updatedTimestamp="1589727616308"
+    updatedUser="KATHERINE.CARROLL" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig>
+        <wsdl id="-306c2acc:1722323f9c1:-7ebc" name="%%SYSTEM_PROJECT_ROOT%%calculator"/>
+    </resourceConfig>
+</editableResource>

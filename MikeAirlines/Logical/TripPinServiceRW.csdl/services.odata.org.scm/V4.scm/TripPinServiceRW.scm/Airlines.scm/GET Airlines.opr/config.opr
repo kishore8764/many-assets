@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1560362656699" createdUser="ibmadmin" id="29614df8:16b4cdb6f63:-7ed1:-808025665:-807255066" type="operation_resource" updatedTimestamp="1560362656699" updatedUser="ibmadmin" version="1.0">
+   <syncdetails compare="GET Airlines" lastSynced="1560362656699" sourceid="29614df8:16b4cdb6f63:-7ed1">
+      <sourcepath path="paths"/>
+      <sourcepath path="https://services.odata.org/V4/(S(uaeomdpfcelmkgusge0y4k2r))/TripPinServiceRW/Airlines"/>
+      <sourcepath path="get"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig avgTime="0" color="180,224,81" dependencies="29614df8:16b4cdb6f63:-7ed1:1876724011:408339756,29614df8:16b4cdb6f63:-7ed1:-509912438:-332410441" invokeDynamicFormatterID="http.text.message.type" invokeEndFormatterID="HTTP_Message" invokeEndTransportID="29614df8:16b4cdb6f63:-7ed1:1876724011:408339756" invokeFormatterID="HTTP_Message" invokeTransportID="29614df8:16b4cdb6f63:-7ed1:1876724011:408339756" maxTime="0" mepEndSchemaID="29614df8:16b4cdb6f63:-7ed1:-509912438:-1551637993" mepEndSchemaNodeFormatter="JSON.nodeformatter" mepEndSchemaroot="Set Of Airline[Object]" mepEndUsed="true" mepStartSchemaID="29614df8:16b4cdb6f63:-7ed1:-509912438:-332410441" mepStartSchemaNodeFormatter="rest_nodeformatter" mepStartSchemaroot="GET Airlines" mepType="IN_OUT" minTime="0" stubDynamicFormatterID="http.text.message.type" stubFormatterID="HTTP_Message" stubTransportID="29614df8:16b4cdb6f63:-7ed1:1876724011:408339756">
+      <invokeHeaderNode meTy="Message" type="12" version="1.2">
+         <fieldActionGroup>
+            <fieldAction enabled="false" type="1">
+               <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+            </fieldAction>
+         </fieldActionGroup>
+         <_c meTy="String" name="MessageType" type="7" value="http.text.message.type" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="http.text.message.type" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="Method" type="7" value="GET" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="GET" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="URL" type="7" value="/V4/(S(uaeomdpfcelmkgusge0y4k2r))/TripPinServiceRW/Airlines" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="/V4/(S(uaeomdpfcelmkgusge0y4k2r))/TripPinServiceRW/Airlines" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+            <fieldActionGroup>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+               </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="Version" type="7" value="" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction type="0">
+                     <fieldAction type="0"/>
+                  </fieldAction>
+               </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction enabled="false" type="1">
+                     <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                  </fieldAction>
+               </fieldActionGroup>
+               <_c meTy="String" name="Accept" type="7" value="application/json" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction type="0">
+                        <fieldAction exp="application/json" type="0"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+               </_c>
+               <_c meTy="String" name="OData-MaxVersion" type="7" value="4.0" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction type="0">
+                        <fieldAction exp="4.0" type="0"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+               </_c>
+               <_c meTy="String" name="OData-Version" type="7" value="4.0" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction type="0">
+                        <fieldAction exp="4.0" type="0"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+               </_c>
+            </_c>
+            <_c meTy="Boolean" name="followRedirects" type="8" value="true" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction type="0">
+                     <fieldAction exp="true" type="0"/>
+                  </fieldAction>
+               </fieldActionGroup>
+            </_c>
+         </_c>
+      </invokeHeaderNode>
+      <stubHeaderConfig>
+         <_c MessageType="http.text.message.type" Method="GET" URL="/V4/(S(uaeomdpfcelmkgusge0y4k2r))/TripPinServiceRW/Airlines" allowSubPath="false" consumerType="Participate" filterHeaders="true" filterMethod="true" filterResourcePath="true">
+            <filterHeadersList>
+               <header disabled="true" name="Accept" type="7" value="application/json"/>
+               <header disabled="true" name="OData-MaxVersion" type="7" value="4.0"/>
+               <header disabled="true" name="OData-Version" type="7" value="4.0"/>
+            </filterHeadersList>
+         </_c>
+      </stubHeaderConfig>
+   </resourceConfig>
+</editableResource>

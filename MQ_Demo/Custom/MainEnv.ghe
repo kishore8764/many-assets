@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1243535665330" createdUser="Administrator" id="1afa28bc:121887cab50:-7e9d" type="environment_resource" updatedTimestamp="1538414417470" updatedUser="ibmadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig>
+      <environmentVariable evdescription="" key="ADBScriptFileDir" value="C:\tibco\adapter\adadb\5.2\sql"/>
+      <environmentVariable evdescription="" key="adpps/adapterRequestTimeoutSeconds" value="90"/>
+      <environmentVariable evdescription="" key="adpps/errorRetryIntervalSecondsAdpps" value="5"/>
+      <environmentVariable evdescription="" key="adpps/iRepIORLocation" value="C:/Arianne/PPS/tester_adapter/ifr2.ior"/>
+      <environmentVariable evdescription="" key="adpps/maxErrorRetry" value="2"/>
+      <environmentVariable evdescription="" key="adpps/nsIORLocation" value="C:/Arianne/PPS/tester_adapter/ns.ior"/>
+      <environmentVariable evdescription="" key="adpps/sink/AdapterMaxLogFilecount" value="3"/>
+      <environmentVariable evdescription="" key="adpps/sink/AdapterMaxLogFileSize" value="30000"/>
+      <environmentVariable evdescription="" key="BWDatabaseHost" value="devuni06"/>
+      <environmentVariable evdescription="" key="BWDatabaseMaxConnections" value="16"/>
+      <environmentVariable evdescription="" key="BWDatabasePassword" value="bewoner"/>
+      <environmentVariable evdescription="" key="BWDatabasePort" value="1521"/>
+      <environmentVariable evdescription="" key="BWDatabaseSID" value="TIBD"/>
+      <environmentVariable evdescription="" key="BWDatabaseUser" value="bw_owner"/>
+      <environmentVariable evdescription="" key="COMDaemon" value="tcp:7500"/>
+      <environmentVariable evdescription="" key="COMNetwork" value=""/>
+      <environmentVariable evdescription="" key="COMService" value="7520"/>
+      <environmentVariable evdescription="" key="constants/errorRetryIntervalSecondsCOM" value="20"/>
+      <environmentVariable evdescription="" key="constants/maxErrorRetryPublishCOM" value="3"/>
+      <environmentVariable evdescription="" key="DB_CONNECTION" value="jdbc:oracle:thin:@ghc-sun6:1521:sun6"/>
+      <environmentVariable evdescription="" key="DB_DRIVER" value="oracle.jdbc.driver.OracleDriver"/>
+      <environmentVariable evdescription="" key="DB_VERSION_QUERY" value="select * from v$version where banner like 'Oracle%'"/>
+      <environmentVariable evdescription="sepps" key="Deployment" value="MyFirstProject"/>
+      <environmentVariable evdescription="" key="DirLedger" value="."/>
+      <environmentVariable evdescription="" key="DirTrace" value="."/>
+      <environmentVariable evdescription="" key="Domain" value="domain"/>
+      <environmentVariable evdescription="" key="EHDatabaseHost" value="ghc-sun6"/>
+      <environmentVariable evdescription="" key="EHDatabaseMaxConnections" value="4"/>
+      <environmentVariable evdescription="" key="EHDatabasePassword" value="EH"/>
+      <environmentVariable evdescription="" key="EHDatabasePort" value="1521"/>
+      <environmentVariable evdescription="" key="EHDatabaseSID" value="sun6"/>
+      <environmentVariable evdescription="" key="EHDatabaseUser" value="EH"/>
+      <environmentVariable evdescription="" key="excel/file" value="A"/>
+      <environmentVariable evdescription="" key="excel/sheet/name" value="Employees"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_CalculateExperyDateAndBalance/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_CalculateExperyDateAndBalance/retryDelay" value="60000"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Change_Contract_IN_Prepaid_Rateplan_1/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Change_Contract_IN_Prepaid_Rateplan_1/retryDelay" value="60000"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Create_Subscriber_Transparant_Data/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Create_Subscriber_Transparant_Data/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Create_Subscriber/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Create_Subscriber/retryDelay" value="60000"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_createTaskData/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_createTaskData/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Delete_IN_Tasks/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Delete_IN_Tasks/retryDelay" value="60000"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Delete_Subscriber/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Delete_Subscriber/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_ERR_Contract_Prepaid_Topup_1/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_ERR_Contract_Prepaid_Topup_1/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_findSubscriberDataBySubscriberByCgpa_acceptsEmptyResults/retryCount" value="2"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_findSubscriberDataBySubscriberByCgpa_acceptsEmptyResults/retryDelay" value="15"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_findSubscriberDataBySubscriberByCgpa/retryCount" value="2"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_findSubscriberDataBySubscriberByCgpa/retryDelay" value="15"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Get_Prepaid_Codes_1/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Get_Prepaid_Codes_1/retryDelay" value="60000"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Get_Service_Data_Interface_findSubscriberDataBySubscriberByCgpa/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Get_Service_Data_Interface_findSubscriberDataBySubscriberByCgpa/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_getSubscriberServiceDataInterface/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_getSubscriberServiceDataInterface/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_getTaskServiceProvider/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_getTaskServiceProvider/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_newInitializedTaskData/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_newInitializedTaskData/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_NTF_Contract_Prepaid_Delete_1_No_Reply/retryCount" value="3"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_NTF_Contract_Prepaid_Delete_1_No_Reply/retryDelay" value="60000"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_NTF_Contract_Prepaid_Topupped_1/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_NTF_Contract_Prepaid_Topupped_1/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_NTF_Contract_Prepaid_Updated_1/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_NTF_Contract_Prepaid_Updated_1/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Provision_MSISDN_for_Lifetime/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Provision_MSISDN_for_Lifetime/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Publish_NTF_Contract_IN_Prepaid_MSISDN_Changed_1/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Publish_NTF_Contract_IN_Prepaid_MSISDN_Changed_1/retryDelay" value="60000"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Publish_NTF_Contract_IN_Prepaid_Rateplan_Changed_1/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Publish_NTF_Contract_IN_Prepaid_Rateplan_Changed_1/retryDelay" value="60000"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Publish_NTF_Contract_Prepaid_Updated_1/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Publish_NTF_Contract_Prepaid_Updated_1/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_REP_Contract_Prepaid_Charge_1/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_REP_Contract_Prepaid_Charge_1/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_REP_Contract_Prepaid_Create_1/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_REP_Contract_Prepaid_Create_1/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_REP_Contract_Prepaid_Delete_1/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_REP_Contract_Prepaid_Delete_1/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_REP_Contract_Prepaid_Query_1/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_REP_Contract_Prepaid_Query_1/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_REP_Product_Lifetime_Provision_1/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_REP_Product_Lifetime_Provision_1/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_setSubscriberData/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_setSubscriberData/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Update_MSISDN_for_Prepaid_Charge/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Update_MSISDN_for_Prepaid_Charge/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Update_MSISDN_for_Prepaid_Topup/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Update_MSISDN_for_Prepaid_Topup/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Update_MSISDN_on_IN_Tasks/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Action_Update_MSISDN_on_IN_Tasks/retryDelay" value="60000"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Initialisors/Action_Init_ICorbaD03_getServiceDataInterface_Subscriber/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Initialisors/Action_Init_ICorbaD03_getServiceDataInterface_Subscriber/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Initialisors/Action_Init_ICorbaSMAF_Authentication_authenticate/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Initialisors/Action_Init_ICorbaSMAF_Authentication_authenticate/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Initialisors/Action_Init_ICorbaSMAF_ManagerFactory_getServiceManager/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Initialisors/Action_Init_ICorbaSMAF_ManagerFactory_getServiceManager/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Initialisors/Action_Init_ICorbaSmServiceManager_getServiceByName/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Initialisors/Action_Init_ICorbaSmServiceManager_getServiceByName/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Initialisors/Action_Init_ICorbaTSC_getServiceDataInterface_Task/retryCount" value="1"/>
+      <environmentVariable evdescription="" key="generated/Wrappers/Initialisors/Action_Init_ICorbaTSC_getServiceDataInterface_Task/retryDelay" value="1"/>
+      <environmentVariable evdescription="" key="HawkEnabled" value="false"/>
+      <environmentVariable evdescription="" key="ITIBDaemon" value="tcp:7500"/>
+      <environmentVariable evdescription="" key="ITIBDomain" value="DEV"/>
+      <environmentVariable evdescription="" key="ITIBNetwork" value=""/>
+      <environmentVariable evdescription="" key="ITIBService" value="7530"/>
+      <environmentVariable evdescription="" key="JmsProviderUrl" value="tcp://localhost:7222"/>
+      <environmentVariable evdescription="" key="JmsSslProviderUrl" value="ssl://localhost:7243"/>
+      <environmentVariable evdescription="" key="MessageStoreTimeout" value="300000"/>
+      <environmentVariable evdescription="" key="ORM/Driver" value="nl.griffelservices.proxy.jdbc.oracle.StubTracerDriver"/>
+      <environmentVariable evdescription="" key="ORM/LoginTimeout" value="0"/>
+      <environmentVariable evdescription="" key="ORM/MaxConnections" value="16"/>
+      <environmentVariable evdescription="" key="ORM/Password" value="ORM_TIBCO_USER"/>
+      <environmentVariable evdescription="" key="ORM/TimeoutSeconds" value="120"/>
+      <environmentVariable evdescription="" key="ORM/URL" value="jdbc:stub:localhost:1962:10000:C:/TMobile/bootstrap_response.txt"/>
+      <environmentVariable evdescription="" key="ORM/User" value="ORM_TIBCO_USER"/>
+      <environmentVariable evdescription="" key="RemoteRvDaemon" value=""/>
+      <environmentVariable evdescription="" key="returnSystemID" value="SEPPS"/>
+      <environmentVariable evdescription="" key="RvaHost" value="localhost"/>
+      <environmentVariable evdescription="" key="RvaPort" value="7600"/>
+      <environmentVariable evdescription="" key="RvDaemon" value="tcp:7500"/>
+      <environmentVariable evdescription="" key="RvNetwork" value=""/>
+      <environmentVariable evdescription="" key="RvService" value="7500"/>
+      <environmentVariable evdescription="" key="sepps/cents_calculate_factor" value="100"/>
+      <environmentVariable evdescription="" key="sepps/createSubscriber/balanceLevel" value="2"/>
+      <environmentVariable evdescription="" key="sepps/createSubscriber/customerIDPrefix" value="1-0-"/>
+      <environmentVariable evdescription="" key="sepps/createSubscriber/expiryDate" value="1293836340000"/>
+      <environmentVariable evdescription="" key="sepps/createSubscriber/msgSeqID" value="unknown"/>
+      <environmentVariable evdescription="" key="sepps/createSubscriber/resultTextError" value="An error occured when attempting to create a subscriber."/>
+      <environmentVariable evdescription="" key="sepps/createSubscriber/resultTextExistingSubscriber" value="Subscriber with MSISDN already exists."/>
+      <environmentVariable evdescription="" key="sepps/deleteSubscriber/msgSeqID" value="unknown"/>
+      <environmentVariable evdescription="" key="sepps/deleteSubscriber/resultTextError" value="An error occured when attempting to delete a subscriber."/>
+      <environmentVariable evdescription="" key="sepps/ICorbaD03.id" value="IDL:de/siemens/advantage/in/service/pps0301/sm/smaf/corba/intf/ICorbaD03:327685.0"/>
+      <environmentVariable evdescription="" key="sepps/ICorbaSMAF_Authentication.id" value="ICorbaSMAF_Authentication.id"/>
+      <environmentVariable evdescription="" key="sepps/ICorbaSMAF_ManagerFactory.id" value="ICorbaSMAF_ManagerFactory.id"/>
+      <environmentVariable evdescription="" key="sepps/ICorbaSmServiceManager" value="ICorbaSmServiceManager"/>
+      <environmentVariable evdescription="" key="sepps/ICorbaSubscriber.id" value="Subscriber"/>
+      <environmentVariable evdescription="" key="sepps/ICorbaTask.id" value="Task"/>
+      <environmentVariable evdescription="" key="sepps/ICorbaTSC.id" value="IDL:de/siemens/advantage/in/features/TaskScheduling/sm/smaf/corba/intf/ICorbaTSC:131077.0"/>
+      <environmentVariable evdescription="" key="sepps/lifetime/resultTextError" value="An error occured in provisioning or updating Lifetime"/>
+      <environmentVariable evdescription="" key="sepps/lifetime/resultTextLifetimeAlreadyProvisioned" value="MSISDN already provisioned for Lifetime"/>
+      <environmentVariable evdescription="" key="sepps/lifetime/resultTextPreActiveSubscriber" value="Lifetime not allowed for preactive MSISDN"/>
+      <environmentVariable evdescription="" key="sepps/MessageTypes/CONTRACT_PREPAID_QUERY/defaultZeroTimeOffset" value="3600000"/>
+      <environmentVariable evdescription="" key="sepps/MessageTypes/CONTRACT_PREPAID_QUERY/lastRateplanChangeNeverDate" value="1970-01-01"/>
+      <environmentVariable evdescription="" key="sepps/msisdnChange/msgSeqId" value="unknown"/>
+      <environmentVariable evdescription="" key="sepps/msisdnChange/taskCustomerIdPattern" value="1-0-%"/>
+      <environmentVariable evdescription="" key="sepps/msisdnChange/taskMaxCount" value="100"/>
+      <environmentVariable evdescription="" key="sepps/msisdnChange/transparentData" value="no value"/>
+      <environmentVariable evdescription="" key="sepps/passwordPPS" value="13#Cheers"/>
+      <environmentVariable evdescription="" key="sepps/powerSMS/providerId" value="6"/>
+      <environmentVariable evdescription="" key="sepps/powerSMS/tariffModelNr" value="1"/>
+      <environmentVariable evdescription="" key="sepps/prepaidCharge/msgSeqID" value="unknown"/>
+      <environmentVariable evdescription="" key="sepps/prepaidCharge/resultTextError" value="An error occured when attempting to charge a subscriber."/>
+      <environmentVariable evdescription="" key="sepps/prepaidTopUp/resultMessageError" value="Het opwaarderen is niet gelukt. Neem contact op met Customer Service."/>
+      <environmentVariable evdescription="" key="sepps/prepaidTopUp/resultMessageMultipleSubscribers" value="Het opwaarderen is niet gelukt. Neem contact op met Customer Service."/>
+      <environmentVariable evdescription="" key="sepps/prepaidTopUp/resultMessageNoSubscriber" value="Het opwaarderen is niet gelukt. Neem contact op met Customer Service."/>
+      <environmentVariable evdescription="" key="sepps/prepaidTopUp/resultMessageSuccess" value="Het opwaarderen is gelukt."/>
+      <environmentVariable evdescription="" key="sepps/prepaidTopUp/resultTextError" value="An error occured in attempting to execute a Prepaid Topup."/>
+      <environmentVariable evdescription="" key="sepps/querysubscriber/lrc_dateField" value="EndOfRechargingTimeInterval"/>
+      <environmentVariable evdescription="" key="sepps/querysubscriber/PrepaidCodeForUnknown" value="PPUNK"/>
+      <environmentVariable evdescription="" key="sepps/querysubscriber/resultTextError" value="An error occured when attempting to query a subscriber."/>
+      <environmentVariable evdescription="" key="sepps/resultCodeBalanceInsufficient" value="7"/>
+      <environmentVariable evdescription="" key="sepps/resultCodeError" value="1"/>
+      <environmentVariable evdescription="" key="sepps/resultCodeExistingSubscriber" value="6"/>
+      <environmentVariable evdescription="" key="sepps/resultCodeLifetimeAlreadyProvisioned" value="4"/>
+      <environmentVariable evdescription="" key="sepps/resultCodeMultipleSubscribers" value="3"/>
+      <environmentVariable evdescription="" key="sepps/resultCodeNoSubscriber" value="2"/>
+      <environmentVariable evdescription="" key="sepps/resultCodePreActiveSubscriber" value="5"/>
+      <environmentVariable evdescription="" key="sepps/resultCodeSuccess" value="0"/>
+      <environmentVariable evdescription="" key="sepps/resultTextBalanceInsufficient" value="The balance is insufficient for the charge. Balance = ##BALANCE## eurocents, charge = ##CHARGE## eurocents."/>
+      <environmentVariable evdescription="" key="sepps/resultTextMultipleSubscribers" value="Multiple subscribers with MSISDN"/>
+      <environmentVariable evdescription="" key="sepps/resultTextNoSubscriber" value="No subscriber with MSISDN"/>
+      <environmentVariable evdescription="" key="sepps/resultTextSuccess" value="Success"/>
+      <environmentVariable evdescription="" key="sepps/taskCustomerId" value="1-0-0"/>
+      <environmentVariable evdescription="" key="sepps/updateRateplan/deleteTaskTransparentData" value="no value"/>
+      <environmentVariable evdescription="" key="sepps/updateRateplan/msgSeqID" value="unknown"/>
+      <environmentVariable evdescription="" key="sepps/updateRateplan/taskCustomerIdPattern" value="1-0-%"/>
+      <environmentVariable evdescription="" key="sepps/updateRateplan/taskMaxCount" value="100"/>
+      <environmentVariable evdescription="" key="sepps/usernamePPS" value="tibco"/>
+      <environmentVariable evdescription="" key="SOAPClientHost" value="localhost"/>
+      <environmentVariable evdescription="" key="SOAPClientPort" value="9000"/>
+      <environmentVariable evdescription="" key="SOAPInputFaultActor" value="Requestor"/>
+      <environmentVariable evdescription="" key="SOAPInputFaultCode" value="-1"/>
+      <environmentVariable evdescription="" key="SOAPServerPort" value="9006"/>
+      <environmentVariable evdescription="" key="TCHDaemon" value="tcp:7500"/>
+      <environmentVariable evdescription="" key="TCHNetwork" value=""/>
+      <environmentVariable evdescription="" key="TCHService" value="7510"/>
+      <environmentVariable evdescription="" key="TIBHawkDaemon" value="tcp:7474"/>
+      <environmentVariable evdescription="" key="TIBHawkNetwork" value=""/>
+      <environmentVariable evdescription="" key="TIBHawkService" value="7474"/>
+      <environmentVariable evdescription="" key="TMNLDirLedger" value="./ledger"/>
+      <environmentVariable evdescription="port 8080 might be occupied, so we try 18080" key="wi11423port" value="18080"/>
+      <environmentVariable evdescription="" key="wmishostname" value="ghserver07.nonprod.hclpnp.com"/>
+      <evbindings>
+         <evbinding evLogicalItemId="-196e4518:155920a7b0e:-66ac" evPhysicalItemId="-196e4518:155920a7b0e:-66ab"/>
+         <evbinding evLogicalItemId="-1d6b55ff:127e223ae02:-6d4f:1731931949:408339756" evPhysicalItemId="3dda01ac:121c1268576:-7088:1731931949:1544155186"/>
+         <evbinding evLogicalItemId="-1f5cb2e9:127dd97ac48:-67eb" evPhysicalItemId="5e390e15:127ddb5400f:-6ac8"/>
+         <evbinding evLogicalItemId="-213f0b97:12a194c99b6:-6f7e" evPhysicalItemId="-2f36826a:12188888622:-7d14:2032461662:1544155186"/>
+         <evbinding evLogicalItemId="-263ecb51:15384ce1504:-677f:1731931949:408339756" evPhysicalItemId="-263ecb51:15384ce1504:-677f:926084400:1544155186"/>
+         <evbinding evLogicalItemId="-2b000881:12501d76555:-35b0" evPhysicalItemId="-67eb9df1:124b6700a9e:-3fd1:2012259942:1544155186"/>
+         <evbinding evLogicalItemId="-2ede1b32:12936fb498d:-628d" evPhysicalItemId="-2ede1b32:12936fb498d:-62a4"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-60f3" evPhysicalItemId="3b006a99:148179b763d:-667c"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-60f3:-1464186534:408339756" evPhysicalItemId="-2f36826a:12188888622:-60f3:-1464186534:-2144509045"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-60f3:-1861559910:408339756" evPhysicalItemId="-2f36826a:12188888622:-60f3:-1861559910:803867431"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-60f3:-1909665232:408339756" evPhysicalItemId="-2f36826a:12188888622:-60f3:-1909665232:-387494972"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-60f3:-2120287501:408339756" evPhysicalItemId="-2f36826a:12188888622:-60f3:-2120287501:-2144509045"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-60f3:-696573766:408339756" evPhysicalItemId="-2f36826a:12188888622:-60f3:-696573766:-2144509045"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-60f3:-718454603:408339756" evPhysicalItemId="-2f36826a:12188888622:-60f3:-718454603:-387494972"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-60f3:-74169179:408339756" evPhysicalItemId="-2f36826a:12188888622:-60f3:-74169179:-387494972"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-60f3:1479498648:408339756" evPhysicalItemId="-2f36826a:12188888622:-60f3:1479498648:1544155186"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-60f3:1513717019:408339756" evPhysicalItemId="-2f36826a:12188888622:-60f3:1513717019:-387494972"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-60f3:1889441168:408339756" evPhysicalItemId="-2f36826a:12188888622:-60f3:1889441168:1544155186"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-60f3:2072289703:408339756" evPhysicalItemId="-2f36826a:12188888622:-60f3:2072289703:803867431"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-60f3:836481739:408339756" evPhysicalItemId="-2f36826a:12188888622:-60f3:836481739:-2144509045"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-60f3:96987090:408339756" evPhysicalItemId="-2f36826a:12188888622:-60f3:-1861559910:803867431"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-7af3" evPhysicalItemId="1afa28bc:121887cab50:-7e01"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-7af3:-146145327:408339756" evPhysicalItemId="-2f36826a:12188888622:-7af3:-146145327:-387494972"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-7af3:-340730476:408339756" evPhysicalItemId="-2f36826a:12188888622:-7af3:-340730476:-2144509045"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-7d14:-1418197870:408339756" evPhysicalItemId="-2f36826a:12188888622:-7d14:-1418197870:1544155186"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-7d14:2032461662:408339756" evPhysicalItemId="-2f36826a:12188888622:-7d14:2032461662:1544155186"/>
+         <evbinding evLogicalItemId="-2f36826a:12188888622:-7e8a" evPhysicalItemId="-2f36826a:12188888622:-7ecf"/>
+         <evbinding evLogicalItemId="-3095a2c1:13b474b6ef7:-6795" evPhysicalItemId="-3095a2c1:13b474b6ef7:-675e"/>
+         <evbinding evLogicalItemId="-33fe339:12bab828066:-685f" evPhysicalItemId="-33fe339:12bab828066:-685c"/>
+         <evbinding evLogicalItemId="-34a3401a:13b428955d2:-666e" evPhysicalItemId="1061478:13b42952417:-6b07"/>
+         <evbinding evLogicalItemId="-3a4bd799:14cc791841d:-62b1" evPhysicalItemId="-3a4bd799:14cc791841d:-6294"/>
+         <evbinding evLogicalItemId="-3dcc97b8:123b8dd6969:-544e" evPhysicalItemId="-1ddc02c3:12188a36786:-730b"/>
+         <evbinding evLogicalItemId="-4c3af6c4:12480d7f19b:-4f1e:-1033237142:408339756" evPhysicalItemId="-4c3af6c4:12480d7f19b:-4f1e:-1033237142:1544155186"/>
+         <evbinding evLogicalItemId="-4c679de4:135e27b9d76:-69db" evPhysicalItemId="-4fafaf5c:1415644416c:-53f8:1704227889:1544155186"/>
+         <evbinding evLogicalItemId="-4fafaf5c:1415644416c:-48bf" evPhysicalItemId="-4fafaf5c:1415644416c:-53f8:1704227889:1544155186"/>
+         <evbinding evLogicalItemId="-4fafaf5c:1415644416c:-53f8:1704227889:408339756" evPhysicalItemId="-4fafaf5c:1415644416c:-53f8:1704227889:1544155186"/>
+         <evbinding evLogicalItemId="-4fd9fad4:126d66bfcec:-67a7" evPhysicalItemId="-2f36826a:12188888622:-60f2"/>
+         <evbinding evLogicalItemId="-52fe845b:135a4abd0e9:-6508" evPhysicalItemId="-52fe845b:135a4abd0e9:-6465"/>
+         <evbinding evLogicalItemId="-580e5dc4:12b82b4ffb9:-653d" evPhysicalItemId="-6f507432:124539ca57f:-4d56"/>
+         <evbinding evLogicalItemId="-5e502806:12559db78d9:-4122" evPhysicalItemId="-5e502806:12559db78d9:-4106"/>
+         <evbinding evLogicalItemId="-64b7e235:14cdb63eaf5:-4ec1" evPhysicalItemId="-64b7e235:14cdb63eaf5:-4e18"/>
+         <evbinding evLogicalItemId="-64de7e3:12a6b454a88:-6d87" evPhysicalItemId="-64de7e3:12a6b454a88:-6d60"/>
+         <evbinding evLogicalItemId="-67eb9df1:124b6700a9e:-3cd2:2012259942:408339756" evPhysicalItemId="-67eb9df1:124b6700a9e:-3cd2:2012259942:1544155186"/>
+         <evbinding evLogicalItemId="-67eb9df1:124b6700a9e:-3da5:2012259942:408339756" evPhysicalItemId="-67eb9df1:124b6700a9e:-3da5:2012259942:1544155186"/>
+         <evbinding evLogicalItemId="-67eb9df1:124b6700a9e:-3fd1:2012259942:408339756" evPhysicalItemId="-67eb9df1:124b6700a9e:-3fd1:2012259942:1544155186"/>
+         <evbinding evLogicalItemId="-67eb9df1:124b6700a9e:-4044:2012259942:408339756" evPhysicalItemId="-67eb9df1:124b6700a9e:-4044:2012259942:1544155186"/>
+         <evbinding evLogicalItemId="-67eb9df1:124b6700a9e:-40ef:1531107262:408339756" evPhysicalItemId="-67eb9df1:124b6700a9e:-40ef:1531107262:1544155186"/>
+         <evbinding evLogicalItemId="-6df2229c:12a5c6714c7:-6d3c" evPhysicalItemId="-6df2229c:12a5c6714c7:-6d27"/>
+         <evbinding evLogicalItemId="-7024777a:124b4c2e70e:-4e0b:-1535738161:408339756" evPhysicalItemId="-7024777a:124b4c2e70e:-4e0b:-1535738161:1544155186"/>
+         <evbinding evLogicalItemId="-777ff614:121a6d44bdb:-69f6" evPhysicalItemId="-777ff614:121a6d44bdb:-6ab9"/>
+         <evbinding evLogicalItemId="-7867bc51:13b27b1e91d:-6afb" evPhysicalItemId="-7867bc51:13b27b1e91d:-6af2"/>
+         <evbinding evLogicalItemId="-7c30bc56:127d39df47c:-6f20" evPhysicalItemId="-2f36826a:12188888622:-60f3:-1909665232:-387494972"/>
+         <evbinding evLogicalItemId="-f3c09b9:122f628bd8d:-28af" evPhysicalItemId="-f3c09b9:122f628bd8d:-28a8"/>
+         <evbinding evLogicalItemId="-f3c09b9:122f628bd8d:-2b6a" evPhysicalItemId="-f3c09b9:122f628bd8d:-2b64"/>
+         <evbinding evLogicalItemId="18418a97:13f102f3e2a:-44b1" evPhysicalItemId="18418a97:13f102f3e2a:-6977"/>
+         <evbinding evLogicalItemId="18418a97:13f102f3e2a:-6818" evPhysicalItemId="18418a97:13f102f3e2a:-47bc"/>
+         <evbinding evLogicalItemId="1a4382f0:14e9de9e47e:-7bae:89462127:408339756" evPhysicalItemId="2817913a:12a42969480:-6839"/>
+         <evbinding evLogicalItemId="1afa28bc:121887cab50:-7ec9" evPhysicalItemId="1afa28bc:121887cab50:-7f0d"/>
+         <evbinding evLogicalItemId="1e61ffb5:1372d31ba9a:-6c63" evPhysicalItemId="-52fe845b:135a4abd0e9:-6465"/>
+         <evbinding evLogicalItemId="20a16fd7:12ac80caa36:-6e4a" evPhysicalItemId="2817913a:12a42969480:-66d0"/>
+         <evbinding evLogicalItemId="234e48e5:13f154275e6:-64a1" evPhysicalItemId="234e48e5:13f154275e6:-678a"/>
+         <evbinding evLogicalItemId="234e48e5:13f154275e6:-64aa" evPhysicalItemId="234e48e5:13f154275e6:-68e5"/>
+         <evbinding evLogicalItemId="2817913a:12a42969480:-6f07" evPhysicalItemId="2817913a:12a42969480:-66d0"/>
+         <evbinding evLogicalItemId="2817913a:12a42969480:-6f26" evPhysicalItemId="2817913a:12a42969480:-6839"/>
+         <evbinding evLogicalItemId="2817913a:12a42969480:-6f37" evPhysicalItemId="2817913a:12a42969480:-6990"/>
+         <evbinding evLogicalItemId="2817913a:12a42969480:-6f48" evPhysicalItemId="2817913a:12a42969480:-6af9"/>
+         <evbinding evLogicalItemId="2817913a:12a42969480:-6f59" evPhysicalItemId="2817913a:12a42969480:-6ef4"/>
+         <evbinding evLogicalItemId="281cf576:12c5cc649ac:-660b" evPhysicalItemId="281cf576:12c5cc649ac:-6759"/>
+         <evbinding evLogicalItemId="304b8270:12796681bbf:-6844" evPhysicalItemId="-2f36826a:12188888622:-60f2"/>
+         <evbinding evLogicalItemId="3d1beac9:1278679b105:-68dd" evPhysicalItemId="40184a43:1231408e130:-5389"/>
+         <evbinding evLogicalItemId="3d1beac9:1278679b105:-6903" evPhysicalItemId="-f3c09b9:122f628bd8d:-2b64"/>
+         <evbinding evLogicalItemId="3dda01ac:121c1268576:-7088:1731931949:408339756" evPhysicalItemId="3dda01ac:121c1268576:-7088:1731931949:1544155186"/>
+         <evbinding evLogicalItemId="40184a43:1231408e130:-518b" evPhysicalItemId="40184a43:1231408e130:-5389"/>
+         <evbinding evLogicalItemId="439ac0c6:13b2e2e6c5f:-5cba" evPhysicalItemId="-52fe845b:135a4abd0e9:-6465"/>
+         <evbinding evLogicalItemId="45ff3a7a:12cdfb4f40b:-7efb" evPhysicalItemId="-f3c09b9:122f628bd8d:-28a8"/>
+         <evbinding evLogicalItemId="4a9a9e4d:1249185fb8d:-4ea9:-1245468631:408339756" evPhysicalItemId="4a9a9e4d:1249185fb8d:-4ea9:-1245468631:1544155186"/>
+         <evbinding evLogicalItemId="4c6a9d22:132c9594749:-6aba" evPhysicalItemId="6992fd5e:132b952e9a7:-7ece"/>
+         <evbinding evLogicalItemId="4edba5bc:12188ca751b:-73a4:-177404054:408339756" evPhysicalItemId="4edba5bc:12188ca751b:-73a4:-177404054:803867431"/>
+         <evbinding evLogicalItemId="4ee1692e:126f612e3ef:-4774" evPhysicalItemId="4ee1692e:126f612e3ef:-4d16"/>
+         <evbinding evLogicalItemId="4ee1692e:126f612e3ef:-47d5" evPhysicalItemId="4ee1692e:126f612e3ef:-4f2c"/>
+         <evbinding evLogicalItemId="50309318:1274d994fef:-674d" evPhysicalItemId="1afa28bc:121887cab50:-7e01"/>
+         <evbinding evLogicalItemId="56caf0b6:13f1a235d80:-3f13" evPhysicalItemId="56caf0b6:13f1a235d80:-3f0a"/>
+         <evbinding evLogicalItemId="56caf0b6:13f1a235d80:-4eb2" evPhysicalItemId="56caf0b6:13f1a235d80:-4ea9"/>
+         <evbinding evLogicalItemId="5b626221:125080d8efd:-4596" evPhysicalItemId="5b626221:125080d8efd:-4576"/>
+         <evbinding evLogicalItemId="5bee8371:1270aff9ecc:-66e3" evPhysicalItemId="5bee8371:1270aff9ecc:-68da"/>
+         <evbinding evLogicalItemId="5cd54cf6:1266691f5c6:-6bd3" evPhysicalItemId="5cd54cf6:1266691f5c6:-6bbd"/>
+         <evbinding evLogicalItemId="5d16fd70:12b62526668:-6cf2" evPhysicalItemId="5d16fd70:12b62526668:-6cdf"/>
+         <evbinding evLogicalItemId="5e2ecfc0:12bab71154b:-6396" evPhysicalItemId="281cf576:12c5cc649ac:-6759"/>
+         <evbinding evLogicalItemId="5e2ecfc0:12bab71154b:-6e62" evPhysicalItemId="5e2ecfc0:12bab71154b:-6588"/>
+         <evbinding evLogicalItemId="72d5c4b8:12650b52336:-6e4e" evPhysicalItemId="72d5c4b8:12650b52336:-6e38"/>
+         <evbinding evLogicalItemId="72d5c4b8:12650b52336:-6e5e" evPhysicalItemId="72d5c4b8:12650b52336:-6cfe"/>
+         <evbinding evLogicalItemId="747bb99a:135c27dcb55:-6b9f" evPhysicalItemId="747bb99a:135c27dcb55:-6b46"/>
+         <evbinding evLogicalItemId="7ce04674:121ea3b0d2f:-6488:-1418197870:408339756" evPhysicalItemId="7ce04674:121ea3b0d2f:-6488:-1418197870:1544155186"/>
+         <evbinding evLogicalItemId="7ce04674:121ea3b0d2f:-6488:2032461662:408339756" evPhysicalItemId="7ce04674:121ea3b0d2f:-6488:2032461662:1544155186"/>
+         <evbinding evLogicalItemId="7ce04674:121ea3b0d2f:-6715:-1418197870:408339756" evPhysicalItemId="7ce04674:121ea3b0d2f:-6715:-1418197870:1544155186"/>
+         <evbinding evLogicalItemId="7ce04674:121ea3b0d2f:-6715:2032461662:408339756" evPhysicalItemId="7ce04674:121ea3b0d2f:-6715:2032461662:1544155186"/>
+         <evbinding evLogicalItemId="7ce04674:121ea3b0d2f:-6915:-1418197870:408339756" evPhysicalItemId="7ce04674:121ea3b0d2f:-6915:-1418197870:1544155186"/>
+         <evbinding evLogicalItemId="7ce04674:121ea3b0d2f:-6915:2032461662:408339756" evPhysicalItemId="7ce04674:121ea3b0d2f:-6915:2032461662:1544155186"/>
+         <evbinding evLogicalItemId="7ce04674:121ea3b0d2f:-6b15:-1418197870:408339756" evPhysicalItemId="7ce04674:121ea3b0d2f:-6b15:-1418197870:1544155186"/>
+         <evbinding evLogicalItemId="7ce04674:121ea3b0d2f:-6b15:2032461662:408339756" evPhysicalItemId="7ce04674:121ea3b0d2f:-6b15:2032461662:1544155186"/>
+         <evbinding evLogicalItemId="7d9092b3:129c642bc99:-6ebc" evPhysicalItemId="-2f36826a:12188888622:-60f3:-1909665232:-387494972"/>
+         <evbinding evLogicalItemId="821ecf3:122091fb2b8:-6c73:326699727:408339756" evPhysicalItemId="821ecf3:122091fb2b8:-6c73:326699727:1544155186"/>
+         <evbinding evLogicalItemId="b5768:1223bc1dbe8:-6200" evPhysicalItemId="b5768:1223bc1dbe8:-5a06"/>
+      </evbindings>
+   </resourceConfig>
+</editableResource>

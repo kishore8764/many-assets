@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1587728904830"
+    createdUser="KATHERINE.CARROLL" id="-7888ec70:171ac021bcd:-7e3e"
+    type="simple_test_data" updatedTimestamp="1587728918166"
+    updatedUser="KATHERINE.CARROLL" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig autoMapColumns="true" columnCount=""
+        datasourceType="Delimited" escapeQuotedString="true"
+        hasColumnNamesLine="true" linesBeforeColumnNames="0"
+        linesToSkip="0"
+        location="%%PROJECT/ROOT_DIRECTORY%%/TestSayings.csv"
+        loop="false" paddingChar="" parsingType="OffsetLength"
+        separator="," treatEmptyStringAsNull="false"
+        treatTextAsEmpty="false" treatTextAsEmptyValue=""
+        treatTextAsNull="false" treatTextAsNullValue="" trim="false"/>
+</editableResource>

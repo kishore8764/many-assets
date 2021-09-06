@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1589727618205"
+    createdUser="KATHERINE.CARROLL"
+    id="-306c2acc:1722323f9c1:-7ec1:1811274527:408339756"
+    type="infrastructure_component_resource"
+    updatedTimestamp="1589727618205" updatedUser="KATHERINE.CARROLL" version="1.1">
+    <syncdetails compare="CalculatorService/CalculatorPort"
+        lastSynced="1589727618205" sourceid="-306c2acc:1722323f9c1:-7ec1">
+        <sourcepath path="CalculatorService/CalculatorPort"/>
+    </syncdetails>
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig infrastructureType="http_transport">
+        <recordingSettings colour="65,214,195"/>
+    </resourceConfig>
+</editableResource>

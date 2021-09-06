@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1603393611945" createdUser="root"
+    id="79932c1f:17551b3ba70:-7eae"
+    selfDescribing="services.odata.org (137.117.17.70)"
+    type="host_machine_resource" updatedTimestamp="1603393611945"
+    updatedUser="root" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig host_address="137.117.17.70" user_host_name="services.odata.org">
+        <roles>
+            <identity name="ssh" port="22"/>
+        </roles>
+    </resourceConfig>
+</editableResource>

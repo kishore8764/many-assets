@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1560362032158" createdUser="ibmadmin" id="1a6880cc:16b4cd31903:-7f6c" type="environment_resource" updatedTimestamp="1562840437672" updatedUser="ibmadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace="">
+      <evbindings>
+         <evbinding evLogicalItemId="29614df8:16b4cdb6f63:-7ed1:1876724011:408339756" evPhysicalItemId="3dde1c1f:16be0876bbe:-7e46"/>
+      </evbindings>
+   </resourceConfig>
+</editableResource>

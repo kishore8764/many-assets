@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1600351341515" createdUser="root"
+    id="-427e11ef:1749c585670:-7e99" type="test_resource"
+    updatedTimestamp="1600369358316" updatedUser="root" version="1.1">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig description="" name="">
+        <testTree>
+            <editableResource id="-427e11ef:1749c585670:-7e46"
+                selfDescribing="The log actions enables you to output messages to console and a logging file."
+                type="logging_action" version="1.0">
+                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                <resourceConfig append="true" description=""
+                    flush="true"
+                    loggingMessage="&#xa;--------&#xa;- INFO -&#xa;--------&#xa;&#xa;show environment variable: %%var01%%"
+                    name="--------" outputFile="" role="0"/>
+            </editableResource>
+        </testTree>
+        <tagDataStore inputMode="NONE" outputMode="NONE"/>
+        <testprops messageClearance="false"/>
+    </resourceConfig>
+</editableResource>

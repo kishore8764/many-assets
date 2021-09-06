@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1560362652643" createdUser="ibmadmin" id="29614df8:16b4cdb6f63:-7ed1" selfDescribing="TripPinServiceRW" syncSourceDetails="29614df8:16b4cdb6f63:-7ec8" type="csdl_definition" updatedTimestamp="1560362652675" updatedUser="ibmadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig locationtype="102">
+      <locationURI>https://services.odata.org/V4/(S(uaeomdpfcelmkgusge0y4k2r))/TripPinServiceRW/</locationURI>
+   </resourceConfig>
+</editableResource>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1589727619910"
+    createdUser="KATHERINE.CARROLL" id="-306c2acc:1722323f9c1:-7e67"
+    selfDescribing="calculator-webservice.mybluemix.net (169.62.254.79) - JMX (default)"
+    type="probe_resource" updatedTimestamp="1589727619910"
+    updatedUser="KATHERINE.CARROLL" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig defaultFlag="true" name="default"
+        physicalResourceID="-306c2acc:1722323f9c1:-7e6f" probeID="ghviewer.plugin.jmx">
+        <JmxDatasource configuration="default"/>
+    </resourceConfig>
+</editableResource>

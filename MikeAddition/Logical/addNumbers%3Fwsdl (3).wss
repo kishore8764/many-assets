@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1575403049995" createdUser="root" id="10b35d34:16ecd511941:-7e6e" selfDescribing="addNumbers?wsdl" type="wsdl_schema" updatedTimestamp="1575403049995" updatedUser="root" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig schemaSourceTemplateName="WSDL">
+      <schemaSourceConfig sourceType="101" uri="http://ghserver03.nonprod.hclpnp.com:9088/addNumbers?wsdl"/>
+   </resourceConfig>
+</editableResource>

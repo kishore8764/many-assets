@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1588405668397"
+    createdUser="swadesh.sagar" id="3694d130:171d4589f43:-7ec3"
+    selfDescribing="calculator" type="wsdl_schema"
+    updatedTimestamp="1588405668397" updatedUser="swadesh.sagar" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig schemaSourceTemplateName="WSDL">
+        <schemaSourceConfig sourceType="102" uri="http://calculator-webservice.mybluemix.net/calculator?wsdl"/>
+    </resourceConfig>
+</editableResource>

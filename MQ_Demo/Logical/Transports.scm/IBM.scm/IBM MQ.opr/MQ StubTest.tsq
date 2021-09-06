@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1249657970394" createdUser="Administrator" id="-59b9b133:1218d9d2ff5:-6dac" type="test_resource" updatedTimestamp="1331330176686" updatedUser="rlittle" version="1.1">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig description="" name="">
+      <testTree>
+         <editableResource id="-59b9b133:1218d9d2ff5:-6d98" selfDescribing="Publish a message on a transport. Select the transport, formatter, and define the message content to be sent." type="publish_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig description="" formatter="GH Text" name="&quot;Text&quot; on queue &quot;QUEUE1&quot; using schema &quot;Text&quot; via &quot;MQ6&quot;" transport="1afa28bc:121887cab50:-7ec9">
+               <headerMessage name="" type="12" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+                  <_c name="queueName" type="7" value="QUEUE1" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction type="0">
+                           <fieldAction exp="QUEUE1" type="0"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                  </_c>
+                  <_c name="GrpReport" type="12" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                           <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                     <_c name="replyQueue" type="7" value="QUEUE2" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction exp="QUEUE2" type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                     <_c name="replyQueueMgr" type="7" value="" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                     <_c name="expiry" type="2" value="-1" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction exp="-1" type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                     <_c name="report" type="2" value="0" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction exp="0" type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                  </_c>
+                  <_c name="GrpCoherence" type="12" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                           <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                     <_c name="msgType" type="2" value="8" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction exp="8" type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                     <_c name="msgId" type="14" value="" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                     <_c name="correlId" type="14" value="" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                     <_c name="grpId" type="14" value="" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                     <_c name="msgSeqNum" type="2" value="1" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction exp="1" type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                     <_c name="offset" type="2" value="0" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction exp="0" type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                  </_c>
+                  <_c name="GrpConfig" type="12" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                           <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                     <_c name="priority" type="2" value="0" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction exp="0" type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                     <_c name="persistence" type="2" value="1" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction exp="1" type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                     <_c name="msgFlags" type="2" value="0" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction exp="0" type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                  </_c>
+                  <_c name="GrpIdentContext" type="12" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                           <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                     <_c name="appIdData" type="7" value="" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                     <_c name="accountingToken" type="7" value="" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                  </_c>
+                  <_c name="GrpOriginContext" type="12" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                           <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                     <_c name="appOriginData" type="7" value="" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                  </_c>
+               </headerMessage>
+               <bodyMessage name="Text" sch="Text" type="12" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+                  <_c name="text" sch="Text" type="7" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction type="0">
+                           <fieldAction exp="StubMessage" type="0"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                  </_c>
+               </bodyMessage>
+            </resourceConfig>
+         </editableResource>
+         <editableResource id="-59b9b133:1218d9d2ff5:-6d17" selfDescribing="Suspend execution of the test for a specified period (in milliseconds).  The delay may be fixed or random." type="sleep_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig description="" distributionType="0" maxDelay="0" minDelay="1500" name="for 1500ms"/>
+         </editableResource>
+         <editableResource id="-59b9b133:1218d9d2ff5:-6d97" selfDescribing="Choose a transport and formatter on which to receive and validate a message." type="subscribe_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig description="" formatter="GH Text" name="&quot;Text&quot; on queue &quot;QUEUE2&quot; using schema &quot;Text&quot; timeout 15000ms via &quot;MQ6&quot;" timeout="15000" transport="1afa28bc:121887cab50:-7ec9">
+               <bodyMessage assocdefid="Text" name="Text" sch="Text" type="12" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction type="1">
+                        <fieldAction anyOrder="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+                  <_c name="text" sch="Text" type="7" value="ReturnFromStub" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction type="1">
+                           <fieldAction exp="ReturnFromStub" type="0"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                  </_c>
+               </bodyMessage>
+               <headerMessage meTy="Message" name="" sch="MQ Subscribe" type="12" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+                  <_c meTy="Message" name="GrpCoherence" sch="MQ Subscribe" type="12" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                           <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                     <_c meTy="ByteArray" name="msgId" sch="MQ Subscribe" type="14" version="1.2"/>
+                     <_c meTy="ByteArray" name="correlId" sch="MQ Subscribe" type="14" version="1.2"/>
+                     <_c meTy="ByteArray" name="grpId" sch="MQ Subscribe" type="14" version="1.2"/>
+                     <_c meTy="Integer" name="msgType" sch="MQ Subscribe" type="2" version="1.2"/>
+                     <_c meTy="Integer" name="msgSeqNum" sch="MQ Subscribe" type="2" version="1.2"/>
+                     <_c meTy="Integer" name="offset" sch="MQ Subscribe" type="2" version="1.2"/>
+                     <_c meTy="Integer" name="origLength" sch="MQ Subscribe" type="2" version="1.2"/>
+                  </_c>
+                  <_c meTy="Message" name="GrpConfig" sch="MQ Subscribe" type="12" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                           <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                     <_c meTy="Integer" name="encoding" sch="MQ Subscribe" type="2" version="1.2"/>
+                     <_c meTy="Integer" name="charSet" sch="MQ Subscribe" type="2" version="1.2"/>
+                     <_c meTy="String" name="format" sch="MQ Subscribe" type="7" version="1.2"/>
+                     <_c meTy="Integer" name="priority" sch="MQ Subscribe" type="2" version="1.2"/>
+                     <_c meTy="Integer" name="persistence" sch="MQ Subscribe" type="2" version="1.2"/>
+                     <_c meTy="Integer" name="msgFlags" sch="MQ Subscribe" type="2" version="1.2"/>
+                  </_c>
+                  <_c meTy="Message" name="GrpReport" sch="MQ Subscribe" type="12" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                           <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                     <_c meTy="Integer" name="report" sch="MQ Subscribe" type="2" version="1.2"/>
+                     <_c meTy="Integer" name="expiry" sch="MQ Subscribe" type="2" version="1.2"/>
+                     <_c meTy="Integer" name="feedback" sch="MQ Subscribe" type="2" version="1.2"/>
+                     <_c meTy="Integer" name="backedOut" sch="MQ Subscribe" type="2" version="1.2"/>
+                     <_c meTy="String" name="replyQueue" sch="MQ Subscribe" type="7" version="1.2"/>
+                     <_c meTy="String" name="replyQueueMgr" sch="MQ Subscribe" type="7" version="1.2"/>
+                  </_c>
+                  <_c meTy="Message" name="GrpIdentContext" sch="MQ Subscribe" type="12" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                           <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                     <_c meTy="String" name="userId" sch="MQ Subscribe" type="7" version="1.2"/>
+                     <_c meTy="ByteArray" name="accountingToken" sch="MQ Subscribe" type="14" version="1.2"/>
+                     <_c meTy="String" name="appIdData" sch="MQ Subscribe" type="7" version="1.2"/>
+                  </_c>
+                  <_c meTy="Message" name="GrpOriginContext" sch="MQ Subscribe" type="12" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                           <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                     <_c meTy="Integer" name="putAppType" sch="MQ Subscribe" type="2" version="1.2"/>
+                     <_c meTy="String" name="putAppName" sch="MQ Subscribe" type="7" version="1.2"/>
+                     <_c meTy="Date-Time" name="putDatTime" sch="MQ Subscribe" type="11" version="1.2"/>
+                     <_c meTy="String" name="appOriginData" sch="MQ Subscribe" type="7" version="1.2"/>
+                  </_c>
+                  <_c meTy="String" name="queueName" sch="MQ Subscribe" type="7" version="1.2"/>
+                  <_c meTy="Date-Time" name="rcvdTimestamp" sch="MQ Subscribe" type="11" version="1.2"/>
+               </headerMessage>
+               <subconfig _version="1.1" formatter="GH Text" subMode="101" subQueueName="QUEUE2" transport="1afa28bc:121887cab50:-7ec9">
+                  <subFilter correlationID="" groupID="" messageID="" offset="" seqNumber=""/>
+               </subconfig>
+            </resourceConfig>
+         </editableResource>
+      </testTree>
+      <tagDataStore inputMode="NONE" outputMode="NONE"/>
+   </resourceConfig>
+</editableResource>

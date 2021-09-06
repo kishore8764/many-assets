@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1589727618205"
+    createdUser="KATHERINE.CARROLL"
+    id="-306c2acc:1722323f9c1:-7ec1:-420080752:1544155186"
+    selfDescribing="Bluemix_Calculator - http calculator-webservice.mybluemix.net"
+    type="http_transport" updatedTimestamp="1589727885259"
+    updatedUser="KATHERINE.CARROLL" version="1.0">
+    <syncdetails compare="http calculator-webservice.mybluemix.net"
+        lastSynced="1589727618205" sourceid="-306c2acc:1722323f9c1:-7ec1">
+        <sourcepath path="CalculatorService/CalculatorPort"/>
+    </syncdetails>
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig transportName="Bluemix_Calculator" transportTemplateName="HTTP">
+        <messageProperties
+            ReasonPhrase="No Stub available that matches the request"
+            clientConnectionsPerHost="100" credDomain=""
+            credPassword="#com.ghc.1!8542" credPreemptive="false"
+            credType="0" credUser=""
+            httpHost="calculator-webservice.mybluemix.net"
+            httpNtlmDomain="" httpPort="80" httpProxyHost=""
+            httpProxyPassword="#com.ghc.1!ab46" httpProxyPort=""
+            httpProxyUsername="" httpServerSocketBindAddressOverride=""
+            httpServerSocketPortOverride="" httpSocketTimeout=""
+            httpTimeoutResponseCode="503" httpVirtualHost=""
+            recType="PROXY" useSsl="false" version="4">
+            <kerberos Anon="false" Conf="false" Custom="true"
+                Enabled="false" Integ="false" KDC="" Loc=""
+                MutAuth="false" Principal="" Pwd="#com.ghc.1!7907"
+                Realm="" RepDet="false" SSO="false" SeqCheck="false"/>
+            <oauth clientassertion="" clientid="" clientsecret=""
+                enabled="false" refreshtoken="" scopes="" tokenendpoint=""/>
+            <serverAuthentication>
+                <authenticationConfig enabled="false" realm="" type="1"/>
+                <authenticationConfig algorithm="" authParams=""
+                    domain="" enabled="false" nonce="false" opaque=""
+                    qop="" realm="" stale="" type="2"/>
+                <authenticationConfig enabled="false" type="3"/>
+                <authenticationConfig enabled="false" type="5"/>
+            </serverAuthentication>
+        </messageProperties>
+    </resourceConfig>
+</editableResource>

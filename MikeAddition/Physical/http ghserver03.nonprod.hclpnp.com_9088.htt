@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1575403214776" createdUser="root"
+    id="10b35d34:16ecd511941:-7e38:926084400:1544155186"
+    selfDescribing="http ghserver03.nonprod.hclpnp.com:9088"
+    type="http_transport" updatedTimestamp="1603312754104"
+    updatedUser="root" version="1.0">
+    <syncdetails compare="http ghserver03.nonprod.hclpnp.com:9088"
+        lastSynced="1575403214776" sourceid="10b35d34:16ecd511941:-7e38">
+        <sourcepath path="AddNumbersService/AddNumbersPort"/>
+    </syncdetails>
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig transportName="" transportTemplateName="HTTP">
+        <messageProperties
+            ReasonPhrase="No Stub available that matches the request"
+            clientConnectionsPerHost="100" credDomain=""
+            credPassword="#com.ghc.1!c049" credPreemptive="false"
+            credType="0" credUser=""
+            httpHost="ghserver03.nonprod.hclpnp.com" httpNtlmDomain=""
+            httpPort="9088" httpProxyHost="150.239.50.82"
+            httpProxyPassword="#com.ghc.1!a367" httpProxyPort="3128"
+            httpProxyUsername="" httpServerSocketBindAddressOverride=""
+            httpServerSocketPortOverride="" httpSocketTimeout=""
+            httpTimeoutResponseCode="503" httpVirtualHost=""
+            recType="PROXY" useSsl="false" version="4">
+            <kerberos Anon="false" Conf="false" Custom="true"
+                Enabled="false" Integ="false" KDC="" Loc=""
+                MutAuth="false" Principal="" Pwd="#com.ghc.1!5984"
+                Realm="" RepDet="false" SSO="false" SeqCheck="false"/>
+            <oauth clientassertion="" clientid="" clientsecret=""
+                enabled="false" refreshtoken="" scopes="" tokenendpoint=""/>
+            <serverAuthentication>
+                <authenticationConfig enabled="false" realm="" type="1"/>
+                <authenticationConfig algorithm="" authParams=""
+                    domain="" enabled="false" nonce="false" opaque=""
+                    qop="" realm="" stale="" type="2"/>
+                <authenticationConfig enabled="false" type="3"/>
+                <authenticationConfig enabled="false" type="5"/>
+            </serverAuthentication>
+        </messageProperties>
+    </resourceConfig>
+</editableResource>

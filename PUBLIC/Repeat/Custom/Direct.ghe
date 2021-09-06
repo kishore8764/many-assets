@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1587728809298"
+    createdUser="KATHERINE.CARROLL" id="-7888ec70:171ac021bcd:-7e8a"
+    type="environment_resource" updatedTimestamp="1587728889063"
+    updatedUser="KATHERINE.CARROLL" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace="">
+        <environmentVariable evdescription="" key="echo_message" value="Direct Transport Message"/>
+        <evbindings>
+            <evbinding
+                evLogicalItemId="-2e83cdc4:171a20a0ea9:-7eca:1704227889:408339756" evPhysicalItemId="-7888ec70:171ac021bcd:-7e72"/>
+        </evbindings>
+    </resourceConfig>
+</editableResource>

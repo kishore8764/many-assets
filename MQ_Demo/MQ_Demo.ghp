@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_c buildID="I20190307_1552" certificateAuthority="KEY_1024_BITS"
+    comments="Project created on March 7, 2019" creationVersion="9.5.0"
+    domain="default" extDocPrefix="" name="MQ_Demo" owner="root"
+    rulesCacheUri="%%PROJECT/ROOT%%Rules" uuid="00000169-59f1-6c8e-0009-9a0801c737bb">
+    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace="">
+        <environmentVariable evdescription="" key="ADBScriptFileDir" value=""/>
+        <environmentVariable evdescription=""
+            key="adpps/adapterRequestTimeoutSeconds" value=""/>
+        <environmentVariable evdescription=""
+            key="adpps/errorRetryIntervalSecondsAdpps" value=""/>
+        <environmentVariable evdescription=""
+            key="adpps/iRepIORLocation" value=""/>
+        <environmentVariable evdescription="" key="adpps/maxErrorRetry" value=""/>
+        <environmentVariable evdescription="" key="adpps/nsIORLocation" value=""/>
+        <environmentVariable evdescription=""
+            key="adpps/sink/AdapterMaxLogFilecount" value=""/>
+        <environmentVariable evdescription=""
+            key="adpps/sink/AdapterMaxLogFileSize" value=""/>
+        <environmentVariable evdescription="" key="BWDatabaseHost" value=""/>
+        <environmentVariable evdescription=""
+            key="BWDatabaseMaxConnections" value=""/>
+        <environmentVariable evdescription="" key="BWDatabasePassword" value=""/>
+        <environmentVariable evdescription="" key="BWDatabasePort" value=""/>
+        <environmentVariable evdescription="" key="BWDatabaseSID" value=""/>
+        <environmentVariable evdescription="" key="BWDatabaseUser" value=""/>
+        <environmentVariable evdescription="" key="COMDaemon" value=""/>
+        <environmentVariable evdescription="" key="COMNetwork" value=""/>
+        <environmentVariable evdescription="" key="COMService" value=""/>
+        <environmentVariable evdescription=""
+            key="constants/errorRetryIntervalSecondsCOM" value=""/>
+        <environmentVariable evdescription=""
+            key="constants/maxErrorRetryPublishCOM" value=""/>
+        <environmentVariable evdescription="" key="DB_CONNECTION" value=""/>
+        <environmentVariable evdescription="" key="DB_DRIVER" value=""/>
+        <environmentVariable evdescription="" key="DB_VERSION_QUERY" value=""/>
+        <environmentVariable evdescription="" key="Deployment" value=""/>
+        <environmentVariable evdescription="" key="DirLedger" value=""/>
+        <environmentVariable evdescription="" key="DirTrace" value=""/>
+        <environmentVariable evdescription="" key="Domain" value=""/>
+        <environmentVariable evdescription="" key="EHDatabaseHost" value=""/>
+        <environmentVariable evdescription=""
+            key="EHDatabaseMaxConnections" value=""/>
+        <environmentVariable evdescription="" key="EHDatabasePassword" value=""/>
+        <environmentVariable evdescription="" key="EHDatabasePort" value=""/>
+        <environmentVariable evdescription="" key="EHDatabaseSID" value=""/>
+        <environmentVariable evdescription="" key="EHDatabaseUser" value=""/>
+        <environmentVariable evdescription="" key="excel/file" value=""/>
+        <environmentVariable evdescription="" key="excel/sheet/name" value="Employees"/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_CalculateExperyDateAndBalance/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_CalculateExperyDateAndBalance/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Change_Contract_IN_Prepaid_Rateplan_1/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Change_Contract_IN_Prepaid_Rateplan_1/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Create_Subscriber_Transparant_Data/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Create_Subscriber_Transparant_Data/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Create_Subscriber/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Create_Subscriber/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_createTaskData/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_createTaskData/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Delete_IN_Tasks/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Delete_IN_Tasks/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Delete_Subscriber/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Delete_Subscriber/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_ERR_Contract_Prepaid_Topup_1/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_ERR_Contract_Prepaid_Topup_1/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_findSubscriberDataBySubscriberByCgpa_acceptsEmptyResults/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_findSubscriberDataBySubscriberByCgpa_acceptsEmptyResults/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_findSubscriberDataBySubscriberByCgpa/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_findSubscriberDataBySubscriberByCgpa/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Get_Prepaid_Codes_1/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Get_Prepaid_Codes_1/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Get_Service_Data_Interface_findSubscriberDataBySubscriberByCgpa/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Get_Service_Data_Interface_findSubscriberDataBySubscriberByCgpa/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_getSubscriberServiceDataInterface/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_getSubscriberServiceDataInterface/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_getTaskServiceProvider/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_getTaskServiceProvider/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_newInitializedTaskData/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_newInitializedTaskData/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_NTF_Contract_Prepaid_Delete_1_No_Reply/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_NTF_Contract_Prepaid_Delete_1_No_Reply/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_NTF_Contract_Prepaid_Topupped_1/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_NTF_Contract_Prepaid_Topupped_1/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_NTF_Contract_Prepaid_Updated_1/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_NTF_Contract_Prepaid_Updated_1/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Provision_MSISDN_for_Lifetime/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Provision_MSISDN_for_Lifetime/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Publish_NTF_Contract_IN_Prepaid_MSISDN_Changed_1/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Publish_NTF_Contract_IN_Prepaid_MSISDN_Changed_1/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Publish_NTF_Contract_IN_Prepaid_Rateplan_Changed_1/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Publish_NTF_Contract_IN_Prepaid_Rateplan_Changed_1/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Publish_NTF_Contract_Prepaid_Updated_1/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Publish_NTF_Contract_Prepaid_Updated_1/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_REP_Contract_Prepaid_Charge_1/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_REP_Contract_Prepaid_Charge_1/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_REP_Contract_Prepaid_Create_1/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_REP_Contract_Prepaid_Create_1/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_REP_Contract_Prepaid_Delete_1/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_REP_Contract_Prepaid_Delete_1/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_REP_Contract_Prepaid_Query_1/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_REP_Contract_Prepaid_Query_1/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_REP_Product_Lifetime_Provision_1/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_REP_Product_Lifetime_Provision_1/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_setSubscriberData/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_setSubscriberData/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Update_MSISDN_for_Prepaid_Charge/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Update_MSISDN_for_Prepaid_Charge/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Update_MSISDN_for_Prepaid_Topup/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Update_MSISDN_for_Prepaid_Topup/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Update_MSISDN_on_IN_Tasks/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Action_Update_MSISDN_on_IN_Tasks/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Initialisors/Action_Init_ICorbaD03_getServiceDataInterface_Subscriber/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Initialisors/Action_Init_ICorbaD03_getServiceDataInterface_Subscriber/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Initialisors/Action_Init_ICorbaSMAF_Authentication_authenticate/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Initialisors/Action_Init_ICorbaSMAF_Authentication_authenticate/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Initialisors/Action_Init_ICorbaSMAF_ManagerFactory_getServiceManager/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Initialisors/Action_Init_ICorbaSMAF_ManagerFactory_getServiceManager/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Initialisors/Action_Init_ICorbaSmServiceManager_getServiceByName/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Initialisors/Action_Init_ICorbaSmServiceManager_getServiceByName/retryDelay" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Initialisors/Action_Init_ICorbaTSC_getServiceDataInterface_Task/retryCount" value=""/>
+        <environmentVariable evdescription=""
+            key="generated/Wrappers/Initialisors/Action_Init_ICorbaTSC_getServiceDataInterface_Task/retryDelay" value=""/>
+        <environmentVariable evdescription="" key="HawkEnabled" value=""/>
+        <environmentVariable evdescription="" key="ITIBDaemon" value=""/>
+        <environmentVariable evdescription="" key="ITIBDomain" value=""/>
+        <environmentVariable evdescription="" key="ITIBNetwork" value=""/>
+        <environmentVariable evdescription="" key="ITIBService" value=""/>
+        <environmentVariable evdescription="" key="JmsProviderUrl" value=""/>
+        <environmentVariable evdescription="" key="JmsSslProviderUrl" value=""/>
+        <environmentVariable evdescription="" key="Log File Name" value=""/>
+        <environmentVariable evdescription="" key="Log File Path" value=""/>
+        <environmentVariable evdescription="" key="Martin/ant" value=""/>
+        <environmentVariable evdescription=""
+            key="Martin/execute stub/component" value=""/>
+        <environmentVariable evdescription=""
+            key="Martin/execute stub/domain" value=""/>
+        <environmentVariable evdescription=""
+            key="Martin/execute stub/environment" value=""/>
+        <environmentVariable evdescription=""
+            key="Martin/execute stub/name" value=""/>
+        <environmentVariable evdescription=""
+            key="Martin/execute stub/operation" value=""/>
+        <environmentVariable evdescription=""
+            key="Martin/execute stub/result OSLC ID" value=""/>
+        <environmentVariable evdescription=""
+            key="Martin/execute stub/version" value=""/>
+        <environmentVariable evdescription="" key="Martin/HTTP host" value=""/>
+        <environmentVariable evdescription="" key="Martin/HTTP port" value=""/>
+        <environmentVariable evdescription=""
+            key="Martin/HTTP proxy host" value=""/>
+        <environmentVariable evdescription=""
+            key="Martin/HTTP proxy port" value=""/>
+        <environmentVariable evdescription="" key="Martin/return" value=""/>
+        <environmentVariable evdescription="" key="Martin/RIT-Platform" value=""/>
+        <environmentVariable evdescription="" key="Martin/RTCP host" value=""/>
+        <environmentVariable evdescription="" key="Martin/RTCP port" value=""/>
+        <environmentVariable evdescription="" key="Martin/RTCP URL" value=""/>
+        <environmentVariable evdescription=""
+            key="Martin/tcp server host" value=""/>
+        <environmentVariable evdescription=""
+            key="Martin/tcp server port" value=""/>
+        <environmentVariable evdescription="" key="MessageStoreTimeout" value=""/>
+        <environmentVariable evdescription="" key="ORM/Driver" value=""/>
+        <environmentVariable evdescription="" key="ORM/LoginTimeout" value=""/>
+        <environmentVariable evdescription="" key="ORM/MaxConnections" value=""/>
+        <environmentVariable evdescription="" key="ORM/Password" value=""/>
+        <environmentVariable evdescription="" key="ORM/TimeoutSeconds" value=""/>
+        <environmentVariable evdescription="" key="ORM/URL" value=""/>
+        <environmentVariable evdescription="" key="ORM/User" value=""/>
+        <environmentVariable
+            evdescription="Queue name for testing tags in recording studio"
+            key="recstudio/envtag/ems" value="queue.sample"/>
+        <environmentVariable
+            evdescription="Resource path for testing tags in recording studio"
+            key="recstudio/envtag/http" value="/stuff/main.php"/>
+        <environmentVariable
+            evdescription="Subject name for testing tags in recording studio"
+            key="recstudio/envtag/rv" value="com.greenhat.test"/>
+        <environmentVariable
+            evdescription="Interface for testing tags in recording studio"
+            key="recstudio/envtag/wmis" value="interface"/>
+        <environmentVariable evdescription="" key="RemoteRvDaemon" value=""/>
+        <environmentVariable evdescription="" key="returnSystemID" value=""/>
+        <environmentVariable evdescription="" key="RvaHost" value=""/>
+        <environmentVariable evdescription="" key="RvaPort" value=""/>
+        <environmentVariable evdescription="" key="RvDaemon" value=""/>
+        <environmentVariable evdescription="" key="RvNetwork" value=""/>
+        <environmentVariable evdescription="" key="RvService" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/cents_calculate_factor" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/createSubscriber/balanceLevel" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/createSubscriber/customerIDPrefix" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/createSubscriber/expiryDate" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/createSubscriber/msgSeqID" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/createSubscriber/resultTextError" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/createSubscriber/resultTextExistingSubscriber" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/deleteSubscriber/msgSeqID" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/deleteSubscriber/resultTextError" value=""/>
+        <environmentVariable evdescription="" key="sepps/ICorbaD03.id" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/ICorbaSMAF_Authentication.id" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/ICorbaSMAF_ManagerFactory.id" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/ICorbaSmServiceManager" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/ICorbaSubscriber.id" value=""/>
+        <environmentVariable evdescription="" key="sepps/ICorbaTask.id" value=""/>
+        <environmentVariable evdescription="" key="sepps/ICorbaTSC.id" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/lifetime/resultTextError" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/lifetime/resultTextLifetimeAlreadyProvisioned" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/lifetime/resultTextPreActiveSubscriber" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/MessageTypes/CONTRACT_PREPAID_QUERY/defaultZeroTimeOffset" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/MessageTypes/CONTRACT_PREPAID_QUERY/lastRateplanChangeNeverDate" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/msisdnChange/msgSeqId" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/msisdnChange/taskCustomerIdPattern" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/msisdnChange/taskMaxCount" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/msisdnChange/transparentData" value=""/>
+        <environmentVariable evdescription="" key="sepps/passwordPPS" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/powerSMS/providerId" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/powerSMS/tariffModelNr" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/prepaidCharge/msgSeqID" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/prepaidCharge/resultTextError" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/prepaidTopUp/resultMessageError" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/prepaidTopUp/resultMessageMultipleSubscribers" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/prepaidTopUp/resultMessageNoSubscriber" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/prepaidTopUp/resultMessageSuccess" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/prepaidTopUp/resultTextError" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/querysubscriber/lrc_dateField" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/querysubscriber/PrepaidCodeForUnknown" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/querysubscriber/resultTextError" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/resultCodeBalanceInsufficient" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/resultCodeError" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/resultCodeExistingSubscriber" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/resultCodeLifetimeAlreadyProvisioned" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/resultCodeMultipleSubscribers" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/resultCodeNoSubscriber" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/resultCodePreActiveSubscriber" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/resultCodeSuccess" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/resultTextBalanceInsufficient" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/resultTextMultipleSubscribers" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/resultTextNoSubscriber" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/resultTextSuccess" value=""/>
+        <environmentVariable evdescription="" key="sepps/taskCustomerId" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/updateRateplan/deleteTaskTransparentData" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/updateRateplan/msgSeqID" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/updateRateplan/taskCustomerIdPattern" value=""/>
+        <environmentVariable evdescription=""
+            key="sepps/updateRateplan/taskMaxCount" value=""/>
+        <environmentVariable evdescription="" key="sepps/usernamePPS" value=""/>
+        <environmentVariable evdescription="" key="SOAPClientHost" value=""/>
+        <environmentVariable evdescription="" key="SOAPClientPort" value=""/>
+        <environmentVariable evdescription="" key="SOAPInputFaultActor" value=""/>
+        <environmentVariable evdescription="" key="SOAPInputFaultCode" value=""/>
+        <environmentVariable evdescription="" key="SOAPServerPort" value=""/>
+        <environmentVariable evdescription="" key="TCHDaemon" value=""/>
+        <environmentVariable evdescription="" key="TCHNetwork" value=""/>
+        <environmentVariable evdescription="" key="TCHService" value=""/>
+        <environmentVariable evdescription="" key="TIBHawkDaemon" value=""/>
+        <environmentVariable evdescription="" key="TIBHawkNetwork" value=""/>
+        <environmentVariable evdescription="" key="TIBHawkService" value=""/>
+        <environmentVariable evdescription="" key="TMNLDirLedger" value=""/>
+        <environmentVariable evdescription="" key="wi11423port" value=""/>
+        <environmentVariable evdescription="" key="wmishostname" value=""/>
+        <environmentVariable evdescription="Bookstore XML for W3Schools"
+            key="xml/bookstore" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ISO-8859-1&quot;?>  &lt;bookstore>  &lt;book>   &lt;title lang=&quot;eng&quot;>Harry Potter&lt;/title>   &lt;price>29.99&lt;/price> &lt;/book>  &lt;book>   &lt;title lang=&quot;eng&quot;>Learning XML&lt;/title>   &lt;price>39.95&lt;/price> &lt;/book>  &lt;/bookstore>"/>
+    </rootEnvironmentConfig>
+    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
+    <serverSettings ghRepositoryURL="https://10.134.59.244:5443/RTCP"
+        trustSource="TRUST_ALL" trustStorePath="">
+        <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
+            <connectionParams ZOSEnv="false"
+                dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
+                dpsPass="#com.ghc.1!6c71" dpsUser=""
+                driverClass="com.ibm.db2.jcc.DB2Driver"
+                password="#com.ghc.1!b453128F4A9D4435E353A2BB726111665527"
+                url="jdbc:db2://ghrhel6.nonprod.hclpnp.com:50000/ritdbf" user="db2inst1">
+                <dpsSsl useSsl="false"/>
+                <stubSettings maxProcCallCount="10000"
+                    maxResultSetRowCount="10000" maxRowCount="10000"
+                    password="#com.ghc.1!24cb"
+                    procedureLearningBehaviour="1" schema="" url=""
+                    useIntegratedDB="true" useSsl="false" user=""/>
+                <storedProcedureFilter catalogFilterEnabled="false"
+                    catalogFilterPattern=""
+                    procedureFilterEnabled="false"
+                    procedureFilterPattern="" schemaFilterEnabled="true"
+                    schemaFilterPattern="db2inst1"
+                    storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+                <timestampFormatting timestampFormatZero="false"
+                    timestampFormattingEnabled="false" timestampPrecision="9"/>
+            </connectionParams>
+        </dbConnectionParameters>
+        <automationServer enabled="false" hostname="" port="443"
+            projectId="-1" projectName="--No Project Selected--"
+            publishResults="false" trustSource="TRUST_ALL"
+            trustStorePassword="#com.ghc.1!1c9b" trustStorePath=""/>
+    </serverSettings>
+    <permissionsSettings autoLogin="true" host=""
+        permFactId="ldap.permissions.factory.none" port="389" pswd="2jmj7l5rSw0yVb/vlWAYkK/YBwk="/>
+    <resultPublishers disableAll="false"/>
+    <publishedResourceInfo>
+        <info domain="default"
+            serverUrl="https://shupert-rh7.pnponetst.com:5443/RTCP"
+            vMajor="1" vMinor="0">
+            <resource id="-59b9b133:1218d9d2ff5:-6e81"/>
+        </info>
+    </publishedResourceInfo>
+</_c>

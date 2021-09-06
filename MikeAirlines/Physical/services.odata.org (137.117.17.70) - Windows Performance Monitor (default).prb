@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1603393613232" createdUser="root"
+    id="79932c1f:17551b3ba70:-7ea7"
+    selfDescribing="services.odata.org (137.117.17.70) - Windows Performance Monitor (default)"
+    type="probe_resource" updatedTimestamp="1603393613232"
+    updatedUser="root" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig defaultFlag="true" name="default"
+        physicalResourceID="79932c1f:17551b3ba70:-7eae" probeID="ghviewer.plugin.perfmon">
+        <PerfMonDatasource configuration="default"/>
+    </resourceConfig>
+</editableResource>

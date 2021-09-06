@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1570732282083" createdUser="root" id="-3f1d8d1f:16db6eeb71e:-7e2e" type="test_resource" updatedTimestamp="1570735289415" updatedUser="root" version="1.1">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig description="" name="">
+      <testTree>
+         <editableResource id="-3f1d8d1f:16db6eeb71e:-7de9" selfDescribing="The log actions enables you to output messages to console and a logging file." type="logging_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig append="true" description="" flush="true" loggingMessage="Starting 3 minute sleeper test." name="Starting 3 minute sleeper test." outputFile="" role="0"/>
+         </editableResource>
+         <editableResource id="-3f1d8d1f:16db6eeb71e:-7dda" selfDescribing="Suspend execution of the test for a specified period (in milliseconds).  The delay may be fixed or random." type="sleep_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig description="" distributionType="0" maxDelay="0" minDelay="30000" name="for 30000ms"/>
+         </editableResource>
+         <editableResource id="-3f1d8d1f:16db6eeb71e:-7dd7" selfDescribing="The log actions enables you to output messages to console and a logging file." type="logging_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig append="true" description="" flush="true" loggingMessage="Slept for 30 seconds... back to sleep now..." name="Slept for 30 seconds... back to sleep now..." outputFile="" role="0"/>
+         </editableResource>
+         <editableResource id="-3f1d8d1f:16db6eeb71e:-7dc8" selfDescribing="Suspend execution of the test for a specified period (in milliseconds).  The delay may be fixed or random." type="sleep_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig description="" distributionType="0" maxDelay="0" minDelay="30000" name="for 30000ms (2)"/>
+         </editableResource>
+         <editableResource id="-3f1d8d1f:16db6eeb71e:-7dbf" selfDescribing="The log actions enables you to output messages to console and a logging file." type="logging_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig append="true" description="" flush="true" loggingMessage="Slept for 1 minute... back to sleep now..." name="Slept for 1 minute... back to sleep now..." outputFile="" role="0"/>
+         </editableResource>
+         <editableResource id="-3f1d8d1f:16db6eeb71e:-7db6" selfDescribing="Suspend execution of the test for a specified period (in milliseconds).  The delay may be fixed or random." type="sleep_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig description="" distributionType="0" maxDelay="0" minDelay="30000" name="for 30000ms (3)"/>
+         </editableResource>
+         <editableResource id="-3f1d8d1f:16db6eeb71e:-7dad" selfDescribing="The log actions enables you to output messages to console and a logging file." type="logging_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig append="true" description="" flush="true" loggingMessage="Slept for 1 min, 30 sec... back to sleep now..." name="Slept for 1 min, 30 sec... back to sleep now..." outputFile="" role="0"/>
+         </editableResource>
+         <editableResource id="-3f1d8d1f:16db6eeb71e:-7aa0" selfDescribing="Suspend execution of the test for a specified period (in milliseconds).  The delay may be fixed or random." type="sleep_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig description="" distributionType="0" maxDelay="0" minDelay="30000" name="for 30000ms (4)"/>
+         </editableResource>
+         <editableResource id="-3f1d8d1f:16db6eeb71e:-7a51" selfDescribing="The log actions enables you to output messages to console and a logging file." type="logging_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig append="true" description="" flush="true" loggingMessage="Slept for 2 min, 0 sec... back to sleep now..." name="Slept for 2 min, 0 sec... back to sleep now..." outputFile="" role="0"/>
+         </editableResource>
+         <editableResource id="-3f1d8d1f:16db6eeb71e:-7a08" selfDescribing="Suspend execution of the test for a specified period (in milliseconds).  The delay may be fixed or random." type="sleep_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig description="" distributionType="0" maxDelay="0" minDelay="30000" name="for 30000ms (5)"/>
+         </editableResource>
+         <editableResource id="-3f1d8d1f:16db6eeb71e:-79bf" selfDescribing="The log actions enables you to output messages to console and a logging file." type="logging_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig append="true" description="" flush="true" loggingMessage="Slept for 2 min, 30 sec... back to sleep now..." name="Slept for 2 min, 30 sec... back to sleep now..." outputFile="" role="0"/>
+         </editableResource>
+         <editableResource id="-3f1d8d1f:16db6eeb71e:-78f5" selfDescribing="Suspend execution of the test for a specified period (in milliseconds).  The delay may be fixed or random." type="sleep_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig description="" distributionType="0" maxDelay="0" minDelay="30000" name="for 30000ms (6)"/>
+         </editableResource>
+         <editableResource id="-3f1d8d1f:16db6eeb71e:-796a" selfDescribing="The log actions enables you to output messages to console and a logging file." type="logging_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig append="true" description="" flush="true" loggingMessage="Finished 3 minute sleeper test." name="Finished 3 minute sleeper test." outputFile="" role="0"/>
+         </editableResource>
+      </testTree>
+      <tagDataStore inputMode="NONE" outputMode="NONE"/>
+      <testprops messageClearance="false"/>
+   </resourceConfig>
+</editableResource>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1589727616292"
+    createdUser="KATHERINE.CARROLL" id="-306c2acc:1722323f9c1:-7ebc"
+    selfDescribing="%%SYSTEM_PROJECT_ROOT%%calculator"
+    type="wsdl_schema" updatedTimestamp="1589727616292"
+    updatedUser="KATHERINE.CARROLL" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig schemaSourceTemplateName="WSDL">
+        <schemaSourceConfig sourceType="101" uri="%%SYSTEM_PROJECT_ROOT%%calculator.wsdl"/>
+    </resourceConfig>
+</editableResource>

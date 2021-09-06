@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1589736521445"
+    createdUser="KATHERINE.CARROLL" id="-39457226:17223ae36ab:-7e86"
+    selfDescribing="calculator-webservice.mybluemix.net (169.46.89.149) - Windows Performance Monitor (default)"
+    type="probe_resource" updatedTimestamp="1589736521445"
+    updatedUser="KATHERINE.CARROLL" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig defaultFlag="true" name="default"
+        physicalResourceID="-39457226:17223ae36ab:-7e8f" probeID="ghviewer.plugin.perfmon">
+        <PerfMonDatasource configuration="default"/>
+    </resourceConfig>
+</editableResource>

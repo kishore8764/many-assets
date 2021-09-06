@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1587561587959"
+    createdUser="KATHERINE.CARROLL" id="-2e83cdc4:171a20a0ea9:-7eca"
+    selfDescribing="echo"
+    syncSourceDetails="-2e83cdc4:171a20a0ea9:-7f69"
+    type="wsdl_service_component" updatedTimestamp="1587561587973"
+    updatedUser="KATHERINE.CARROLL" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig>
+        <wsdl id="-2e83cdc4:171a20a0ea9:-7ec5" name="echo"/>
+    </resourceConfig>
+</editableResource>

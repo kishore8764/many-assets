@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1551914243715" createdUser="ibmadmin" id="-29f1a7b5:16955441e04:-5eb4" selfDescribing="RICHL (10.134.59.126) - JMX (default)" type="probe_resource" updatedTimestamp="1551914243715" updatedUser="ibmadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig defaultFlag="true" name="default" physicalResourceID="-29f1a7b5:16955441e04:-5ebc" probeID="ghviewer.plugin.jmx">
+      <JmxDatasource configuration="default"/>
+   </resourceConfig>
+</editableResource>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1588414514951"
+    createdUser="swadesh.sagar" id="417b602a:171d4e200d1:-7ea9"
+    selfDescribing="calculator-webservice.mybluemix.net (169.62.254.79)"
+    type="host_machine_resource" updatedTimestamp="1588414514951"
+    updatedUser="swadesh.sagar" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig host_address="169.62.254.79" user_host_name="calculator-webservice.mybluemix.net">
+        <roles>
+            <identity name="ssh" port="22"/>
+        </roles>
+    </resourceConfig>
+</editableResource>

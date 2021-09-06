@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1587728946446"
+    createdUser="KATHERINE.CARROLL" id="-7888ec70:171ac021bcd:-7dbe"
+    type="test_resource" updatedTimestamp="1588289924621"
+    updatedUser="KATHERINE.CARROLL" version="1.1">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig description="" name="">
+        <testTree>
+            <editableResource id="-7888ec70:171ac021bcd:-7cda"
+                selfDescribing="The log actions enables you to output messages to console and a logging file."
+                type="logging_action" version="1.0">
+                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                <resourceConfig append="true" description=""
+                    flush="true" loggingMessage=" %%echo_message%%"
+                    name=" %%echo_message%%" outputFile="" role="0"/>
+            </editableResource>
+            <editableResource id="-7888ec70:171ac021bcd:-7d0f"
+                selfDescribing="Iterate over a test data set"
+                type="iterate_action" version="1.0">
+                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                <resourceConfig description="" disableMappings="false"
+                    iterationContributor="true" maxIterationTime="0.0"
+                    maxIterationTimeExceededFailsTest="false"
+                    maxTotalIterationTime="0.0"
+                    maxTotalIterationTimeExceededFailsTest="false"
+                    name=" over Sayings" option="NOTHING"
+                    pacingtime="0.0" pacingtype="MIN_DURATION"
+                    performanceDisableValidation="false"
+                    performanceInstances="1"
+                    performanceInterleave="false"
+                    performanceMaximumIterationTime="0"
+                    performanceMaximumTestTime="0"
+                    performanceUseMaximumIterationTime="false"
+                    performanceUseMaximumTestTime="false" remoteAgent=""
+                    reportingLogIterations="1"
+                    reportingLogLogMessages="8" reportingLogMessages="4"
+                    reportingLogScriptExitCodes="8"
+                    reportingLogScriptOutput="8"
+                    reportingLogTagValues="8" reportingLogTimes="8"
+                    runSettingsContinueOnFail="true"
+                    runSettingsDelayEnabled="false"
+                    runSettingsDelayType="Fixed Delay"
+                    runSettingsIterations=""
+                    runSettingsMaximumDelayValue="0"
+                    runSettingsMinimumDelayValue="0"
+                    runSettingsRunFor="0" runSettingsRunType="Once Only"
+                    runSettingsTestDescription=""
+                    type="script:ECMAScript" useMaxIterationTime="false"
+                    useMaxTotalIterationTime="false" usepacing="false">
+                    <testDataSetReference
+                        id="-7888ec70:171ac021bcd:-7e3e"
+                        lkname="Sayings" lkpath="echo/Sayings" type="simple_test_data"/>
+                    <mapper disableFiltersWhenEmpty="false"
+                        knownColumns="message,key" noAutoMap="message">
+                        <mapping tagName="echoStringReturn" type="0"/>
+                        <mapping columnName="message" tagName="message" type="4"/>
+                        <filter columnIdx="1" columnName="message">
+                            <fieldAction type="1">
+                                <fieldAction type="0"/>
+                            </fieldAction>
+                        </filter>
+                    </mapper>
+                    <testTree>
+                        <editableResource
+                            id="-2e83cdc4:171a20a0ea9:-7d38"
+                            selfDescribing="The log actions enables you to output messages to console and a logging file."
+                            type="logging_action" version="1.0">
+                            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                            <resourceConfig append="true" description=""
+                                flush="true"
+                                loggingMessage="=========>  %%message%%"
+                                name="=========>  %%message%%"
+                                outputFile="" role="0"/>
+                        </editableResource>
+                    </testTree>
+                </resourceConfig>
+            </editableResource>
+        </testTree>
+        <tagDataStore inputMode="NONE" outputMode="NONE">
+            <tag defaultValue="" description="" name="echoStringReturn"/>
+            <tag defaultValue="" description="" name="message"/>
+        </tagDataStore>
+        <testprops messageClearance="false"/>
+    </resourceConfig>
+</editableResource>

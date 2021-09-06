@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_c buildID="I20200430_0116" certificateAuthority="KEY_1024_BITS"
+    comments="Project created on May 2, 2020" creationVersion="10.1.0"
+    domain="Oracle_RIT" extDocPrefix="" name="IOS_Swadesh_RIT_Project"
+    owner="swadesh.sagar" rulesCacheUri="%%PROJECT/ROOT%%Rules" uuid="00000171-d458-9eac-0000-012e2aaef844">
+    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
+    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
+    <serverSettings ghRepositoryURL="https://LP1-AP-51861657:5443/RTCP"
+        trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!666e" trustStorePath="">
+        <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
+            <connectionParams ZOSEnv="false"
+                dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
+                dpsPass="#com.ghc.1!a0d2" dpsUser=""
+                driverClass="oracle.jdbc.OracleDriver"
+                password="#com.ghc.1!2a50E355A2BA7221116555070C9F6A4140F7211A"
+                url="jdbc:oracle:thin:@ghserver01.nonprod.hclpnp.com:1521/RIT" user="system">
+                <dpsSsl useSsl="false"/>
+                <stubSettings maxProcCallCount="10000"
+                    maxResultSetRowCount="10000" maxRowCount="10000"
+                    password="#com.ghc.1!52a2"
+                    procedureLearningBehaviour="1" schema="" url=""
+                    useIntegratedDB="true" useSsl="false" user=""/>
+                <storedProcedureFilter catalogFilterEnabled="false"
+                    catalogFilterPattern=""
+                    procedureFilterEnabled="false"
+                    procedureFilterPattern="" schemaFilterEnabled="true"
+                    schemaFilterPattern="system"
+                    storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+                <timestampFormatting timestampFormatZero="false"
+                    timestampFormattingEnabled="false" timestampPrecision="9"/>
+            </connectionParams>
+        </dbConnectionParameters>
+        <automationServer enabled="false" hostname="" port="443"
+            projectId="-1" projectName="--No Project Selected--"
+            publishResults="false" trustSource="TRUST_ALL"
+            trustStorePassword="#com.ghc.1!d0db" trustStorePath=""/>
+    </serverSettings>
+    <permissionsSettings autoLogin="true" host="US-PNP-DC05"
+        permFactId="rtcp.permissions.factory.none" port="389" pswd="5SFfC/ywBGZW/UKAA6QeU3JxmPXoO/u2qwzZ68+rlvU=$MygUR/Dv0Kp2LNp8Zxn/gGnFic4zJLLxlkE2UvENZT8="/>
+    <resultPublishers disableAll="false"/>
+</_c>

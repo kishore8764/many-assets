@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1560362657136" createdUser="ibmadmin" id="29614df8:16b4cdb6f63:-7ed1:1876724011:408339756" type="infrastructure_component_resource" updatedTimestamp="1560362657136" updatedUser="ibmadmin" version="1.1">
+   <syncdetails compare="LOGICALhttpsservices.odata.orgTripPinServiceRW" lastSynced="1560362657136" sourceid="29614df8:16b4cdb6f63:-7ed1">
+      <sourcepath path="https"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig infrastructureType="http_transport">
+      <recordingSettings colour="239,193,0"/>
+   </resourceConfig>
+</editableResource>

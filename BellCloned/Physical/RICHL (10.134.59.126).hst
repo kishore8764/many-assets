@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1551914241765" createdUser="ibmadmin" id="-29f1a7b5:16955441e04:-5ebc" selfDescribing="RICHL (10.134.59.126)" type="host_machine_resource" updatedTimestamp="1551914241765" updatedUser="ibmadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig host_address="10.134.59.126" user_host_name="RICHL">
+      <roles>
+         <identity name="ssh" port="22"/>
+      </roles>
+   </resourceConfig>
+</editableResource>

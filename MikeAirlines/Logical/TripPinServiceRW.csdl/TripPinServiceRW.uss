@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1560362655841" createdUser="ibmadmin" id="29614df8:16b4cdb6f63:-7ed1:-509912438:-332410441" selfDescribing="TripPinServiceRW" type="parameterized_url_schema" updatedTimestamp="1560362794479" updatedUser="ibmadmin" version="1.0">
+   <syncdetails compare="1560362655779" lastSynced="1560362794479" sourceid="29614df8:16b4cdb6f63:-7ed1"/>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig schemaSourceTemplateName="URL">
+      <schemaSourceConfig name="TripPinServiceRW">
+         <url templateName="GET Photos">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Photos" parameterName="" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$top" queryName="$top" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$skip" queryName="$skip" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$search" queryName="$search" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$filter" queryName="$filter" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$orderby" queryName="$orderby" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$select" queryName="$select" type="7"/>
+         </url>
+         <url templateName="POST Photos">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Photos" parameterName="" type="7"/>
+         </url>
+         <url templateName="PATCH Photos(Id)">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Photos" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="Id" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+         </url>
+         <url templateName="DELETE Photos(Id)">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Photos" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="Id" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+         </url>
+         <url templateName="GET Photos(Id)">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Photos" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="Id" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$select" queryName="$select" type="7"/>
+         </url>
+         <url templateName="GET People">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="People" parameterName="" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$top" queryName="$top" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$skip" queryName="$skip" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$search" queryName="$search" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$filter" queryName="$filter" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$orderby" queryName="$orderby" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$select" queryName="$select" type="7"/>
+         </url>
+         <url templateName="POST People">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="People" parameterName="" type="7"/>
+         </url>
+         <url templateName="PATCH People(UserName)">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="People" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="UserName" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+         </url>
+         <url templateName="DELETE People(UserName)">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="People" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="UserName" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+         </url>
+         <url templateName="GET People(UserName)">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="People" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="UserName" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$select" queryName="$select" type="7"/>
+         </url>
+         <url templateName="GET People_Friends">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="People" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="UserName" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="Friends" parameterName="" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$select" queryName="$select" type="7"/>
+         </url>
+         <url templateName="POST People_Friends">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="People" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="UserName" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="Friends" parameterName="" type="7"/>
+         </url>
+         <url templateName="GET People_Photo">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="People" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="UserName" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="Photo" parameterName="" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$select" queryName="$select" type="7"/>
+         </url>
+         <url templateName="GET People_Trips">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="People" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="UserName" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="Trips" parameterName="" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$select" queryName="$select" type="7"/>
+         </url>
+         <url templateName="POST People_Trips">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="People" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="UserName" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="Trips" parameterName="" type="7"/>
+         </url>
+         <url templateName="GET People_GetFavoriteAirline()">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="People" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="UserName" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="Microsoft.OData.SampleService.Models.TripPin.GetFavoriteAirline" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="()" parameterName="" type="7"/>
+         </url>
+         <url templateName="GET People_GetFriendsTrips(userName={userName})">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="People" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="UserName" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="Microsoft.OData.SampleService.Models.TripPin.GetFriendsTrips" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="userName=" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="userName" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+         </url>
+         <url templateName="POST People_ShareTrip(userName={userName},tripId={tripId}...)">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="People" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="UserName" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="Microsoft.OData.SampleService.Models.TripPin.ShareTrip" parameterName="" type="7"/>
+         </url>
+         <url templateName="GET Airlines">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Airlines" parameterName="" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$top" queryName="$top" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$skip" queryName="$skip" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$search" queryName="$search" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$filter" queryName="$filter" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$orderby" queryName="$orderby" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$select" queryName="$select" type="7"/>
+         </url>
+         <url templateName="POST Airlines">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Airlines" parameterName="" type="7"/>
+         </url>
+         <url templateName="PATCH Airlines(AirlineCode)">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Airlines" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="AirlineCode" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+         </url>
+         <url templateName="DELETE Airlines(AirlineCode)">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Airlines" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="AirlineCode" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+         </url>
+         <url templateName="GET Airlines(AirlineCode)">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Airlines" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="AirlineCode" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$select" queryName="$select" type="7"/>
+         </url>
+         <url templateName="GET Airports">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Airports" parameterName="" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$top" queryName="$top" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$skip" queryName="$skip" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$search" queryName="$search" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$filter" queryName="$filter" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$orderby" queryName="$orderby" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$select" queryName="$select" type="7"/>
+         </url>
+         <url templateName="POST Airports">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Airports" parameterName="" type="7"/>
+         </url>
+         <url templateName="PATCH Airports(IcaoCode)">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Airports" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="IcaoCode" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+         </url>
+         <url templateName="DELETE Airports(IcaoCode)">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Airports" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="IcaoCode" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+         </url>
+         <url templateName="GET Airports(IcaoCode)">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Airports" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="IcaoCode" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="'" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$select" queryName="$select" type="7"/>
+         </url>
+         <url templateName="PATCH Me">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Me" parameterName="" type="7"/>
+         </url>
+         <url templateName="GET Me">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Me" parameterName="" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$select" queryName="$select" type="7"/>
+         </url>
+         <url templateName="GET Me_Friends">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Me" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="Friends" parameterName="" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$select" queryName="$select" type="7"/>
+         </url>
+         <url templateName="POST Me_Friends">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Me" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="Friends" parameterName="" type="7"/>
+         </url>
+         <url templateName="GET Me_Photo">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Me" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="Photo" parameterName="" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$select" queryName="$select" type="7"/>
+         </url>
+         <url templateName="GET Me_Trips">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Me" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="Trips" parameterName="" type="7"/>
+            <query defaultValue="" isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="$select" queryName="$select" type="7"/>
+         </url>
+         <url templateName="POST Me_Trips">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="Me" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="Trips" parameterName="" type="7"/>
+         </url>
+         <url templateName="GET GetNearestAirport(lat={lat},lon={lon})">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="GetNearestAirport" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="(" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="lat=" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="lat" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="," parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal="lon=" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="lon" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="false" literal=")" parameterName="" type="7"/>
+         </url>
+         <url templateName="POST ResetDataSource">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="ResetDataSource" parameterName="" type="7"/>
+         </url>
+         <url templateName="POST $batch">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="V4" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="(S(uaeomdpfcelmkgusge0y4k2r))" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="TripPinServiceRW" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="$batch" parameterName="" type="7"/>
+         </url>
+      </schemaSourceConfig>
+   </resourceConfig>
+</editableResource>

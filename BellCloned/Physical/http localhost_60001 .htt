@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1527191415012" createdUser="MORRIS.JOHNSON" id="3a62ca8f:16393b34c86:-7ed9:1782426752:1544155186" selfDescribing="http localhost:60001 " type="http_transport" updatedTimestamp="1527717728363" updatedUser="MORRIS.JOHNSON" version="1.0">
+   <syncdetails compare="http localhost:60001 " lastSynced="1527191415012" sourceid="3a62ca8f:16393b34c86:-7ed9">
+      <sourcepath path="AddNumbersService/AddNumbersPort"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="" transportTemplateName="HTTP">
+      <messageProperties ReasonPhrase="No Stub available that matches the request" clientConnectionsPerHost="100" credDomain="" credPassword="#com.ghc.1!2628" credPreemptive="false" credType="0" credUser="" httpHost="localhost" httpNtlmDomain="" httpPort="60001" httpProxyHost="" httpProxyPassword="#com.ghc.1!9903" httpProxyPort="" httpProxyUsername="" httpResourceRoot="" httpServerSocketBindAddressOverride="" httpServerSocketPortOverride="" httpSocketTimeout="" httpTimeoutResponseCode="503" httpVirtualHost="" recType="PROXY" useSsl="false" version="4">
+         <kerberos Anon="false" Conf="false" Custom="true" Enabled="false" Integ="false" KDC="" Loc="" MutAuth="false" Principal="" Pwd="#com.ghc.1!2577" Realm="" RepDet="false" SSO="false" SeqCheck="false"/>
+         <serverAuthentication>
+            <authenticationConfig enabled="false" realm="" type="1"/>
+            <authenticationConfig algorithm="" authParams="" domain="" enabled="false" nonce="false" opaque="" qop="" realm="" stale="" type="2"/>
+            <authenticationConfig enabled="false" type="3"/>
+            <authenticationConfig enabled="false" type="5"/>
+         </serverAuthentication>
+      </messageProperties>
+   </resourceConfig>
+</editableResource>

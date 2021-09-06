@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1588345297322"
+    createdUser="KATHERINE.CARROLL" id="-768a1003:171d0c12467:-7ec1"
+    type="simple_test_data" updatedTimestamp="1588345310807"
+    updatedUser="KATHERINE.CARROLL" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig autoMapColumns="true" columnCount=""
+        datasourceType="Delimited" escapeQuotedString="true"
+        hasColumnNamesLine="true" linesBeforeColumnNames="0"
+        linesToSkip="0"
+        location="%%PROJECT/ROOT_DIRECTORY%%/BackupLocationsRaw.csv"
+        loop="false" paddingChar="" parsingType="OffsetLength"
+        separator="," treatEmptyStringAsNull="false"
+        treatTextAsEmpty="false" treatTextAsEmptyValue=""
+        treatTextAsNull="false" treatTextAsNullValue="" trim="false"/>
+</editableResource>
